@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+*.js
+!jest.config.js
+!prettier.config.js
+!.jest/setupEnvVars.js
+coverage/

@@ -1,0 +1,17 @@
+process.env['OAUTH_CONFLUENCE_PRIVATE_KEY_DATA'] = '-----BEGIN RSA PRIVATE KEY-----\n'
+    + 'MIICXQIBAAKBgQCmp6H6+GhSBOfJZKMW3+PVbPVvwIKTsf16sVj1MmSdAu5zYvKj\n'
+    + 'pvwB6KZz5TdR4hWqIC21RWgjNV7AaXtTfOakBN6Y7N8HpvECCD2PD+g4MuqGmfEq\n'
+    + 'ENIaTb91sy7UgwCiqGlcVXuJFtnoXcD2rTmSs9J06JG+PVN0zq9dF6lvNwIDAQAB\n'
+    + 'AoGAOn33kjiBlNf36m2R+ENYmd4GPtTYf7Im/1sjl9u6CImw23rNIrdHF/xp/59h\n'
+    + 'zTGG3REyOb9Ej6b5vJrJGEJsSHACNWeXFnjweWp/DjDFPity7NrqGrTamQ76kO4E\n'
+    + 'bbZXS/RjTGIY3LjH6e7lVjsqzNMerRY6bc2J2jhKF04dnRECQQDVmUgiUzca8IhI\n'
+    + 'A8lRcNvsKaEaWUNgcHs25ZdQTZyJynyFKu32wxoVxjlgYWpNa6qa3tFMF5AUZRkx\n'
+    + 'l3i96SdLAkEAx7y9xe7dvwJAmfUS34buZgmRihx1EZgF89eIU6O4YG/uDHWDbwW6\n'
+    + '0nWo0KQSMHho//XijKgT8HEWV56m75aIRQJBAKXSb7umGruhTEuMFPhSw4kd8GIC\n'
+    + 'NlpiOGWv67594i7esbi4UTEm2dNZpiV6uwoLsdC1doq6KDKNIffr/eKBZO0CQQDE\n'
+    + 'vpLEJJ1CqApQXMphafzsf6Jfw9ZBJVk/rt+3W36jZ725ggucUa2L36ARHHxaSFFN\n'
+    + 'R7wHxwwU/KAAYOOY/tNtAkBGvsBh+kVB45x5ub5pIaFmO8JYOpb7Jgx6qo2EytrL\n'
+    + 'kvLrUX6ABNJ3IbGpJktcA91e5qjFkqGXMA8wmeTsqcg4\n'
+    + '-----END RSA PRIVATE KEY-----';
+process.env['OAUTH_CONFLUENCE_CONSUMER_KEY'] = 'consumer';
+process.env['OAUTH_CONFLUENCE_CONSUMER_SECRET'] = 'secret';

@@ -1,0 +1,18 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "quotemark": [true, "single", "avoid-template"],
+    "semicolon": [true, "always"],
+    "space-before-function-paren": [true, {
+      "anonymous": "always",
+      "asyncArrow": "always",
+      "constructor": "never",
+      "method": "never",
+      "named": "never"
+    }],
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "no-floating-promises": false,
+    "no-unused-variable": null,
+    "no-use-before-declare": null
+  }
+}
