@@ -38,7 +38,8 @@
     "baseUrl": ".",
     "paths": {
       "*": ["customTypings/*", "*"]
-    }
+    },
+    "declaration": true,
   },
   "exclude": [
     "node_modules"
