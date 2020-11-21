@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@slack/web-api": "^5.8.0",
-    "oauth": "nsi88/node-oauth"
+    "oauth": "open-loocle/node-oauth"
   },
   "devDependencies": {
     "typescript": "^3.9.7",
