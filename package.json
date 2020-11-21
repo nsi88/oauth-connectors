@@ -8,7 +8,7 @@
     "watch": "tsc -w",
     "lint": "tslint -p tsconfig.json",
     "test": "npx jest",
-    "postinstall": "build"
+    "postinstall": "tsc"
   },
   "dependencies": {
     "@slack/web-api": "^5.8.0",
