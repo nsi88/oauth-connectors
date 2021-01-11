@@ -21,6 +21,7 @@ import IFavorites, { implementsIFavorites } from './src/IFavorites';
 import IOAuth1TemporaryCredentialRequest, { implementsIOAuth1TemporaryCredentialRequest } from './src/IOAuth1TemporaryCredentialRequest';
 import IOAuth1TokenCredentialsRequest, { implementsIOAuth1TokenCredentialsRequest } from './src/IOAuth1TokenCredentialsRequest';
 import IOAuth2AccessTokenRequest, { implementsIOAuth2AccessTokenRequest } from './src/IOAuth2AccessTokenRequest';
+import DemoSlack from './src/DemoSlack';
 
 export {
   Slack,
@@ -56,4 +57,5 @@ export {
   ICurrentUser,
   implementsIFavorites,
   IFavorites,
+  DemoSlack,
 };
