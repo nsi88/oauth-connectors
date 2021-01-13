@@ -13,6 +13,7 @@ import IDemoAuth from './IDemoAuth';
  * Allows to try searching in Slack without any actions from user.
  */
 export default class DemoSlack extends Slack implements IDemoAuth {
+  static DEFAULT_ORIGIN: string | null = 'https://loocle.slack.com';
   private static readonly CURRENT_USER_ID = 'demo';
   private static readonly CURRENT_USER_NAME = 'demo';
   private readonly accessToken: string | undefined;
