@@ -5,13 +5,14 @@ import IOAuth2AccessTokenRequest from './IOAuth2AccessTokenRequest';
 import IOAuth2AccessTokenResponse from './IOAuth2AccessTokenResponse';
 import AuthCredentials from './AuthCredentials';
 import IUser from './IUser';
+import IDemoAuth from './IDemoAuth';
 
 /**
  * Slack connector for a demo account.
  *
  * Allows to try searching in Slack without any actions from user.
  */
-export default class DemoSlack extends Slack {
+export default class DemoSlack extends Slack implements IDemoAuth {
   private static readonly CURRENT_USER_ID = 'demo';
   private static readonly CURRENT_USER_NAME = 'demo';
   private readonly accessToken: string | undefined;
@@ -47,5 +48,9 @@ export default class DemoSlack extends Slack {
 
   async favorites<T extends AuthCredentials>(_oAuth2AccessTokenResponse: T | null, _limit?: number): Promise<Array<string>> {
     return [];
+  }
+
+  async demoAuth(): Promise<IOAuth2AccessTokenResponse> {
+    return this.accessTokenRequest(null as unknown as IOAuth2AccessTokenRequest);
   }
 }

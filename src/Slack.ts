@@ -19,7 +19,7 @@ import IReactionsListResponse from './Slack/IReactionsListResponse';
 import IFavorites from './IFavorites';
 import IOAuth2AuthorizationRequest from './IOAuth2AuthorizationRequest';
 import IOAuth2AccessTokenRequest from './IOAuth2AccessTokenRequest';
-import ConnectorError from "./ConnectorError";
+import ConnectorError from './ConnectorError';
 
 export default class Slack extends Connector implements IOAuth2, ISearch, ICurrentUser, IFavorites {
   static DEFAULT_ORIGIN: string | null = 'https://slack.com';

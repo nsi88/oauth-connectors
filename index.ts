@@ -22,6 +22,7 @@ import IOAuth1TemporaryCredentialRequest, { implementsIOAuth1TemporaryCredential
 import IOAuth1TokenCredentialsRequest, { implementsIOAuth1TokenCredentialsRequest } from './src/IOAuth1TokenCredentialsRequest';
 import IOAuth2AccessTokenRequest, { implementsIOAuth2AccessTokenRequest } from './src/IOAuth2AccessTokenRequest';
 import DemoSlack from './src/DemoSlack';
+import IDemoAuth, { implementsIDemoAuth } from './src/IDemoAuth';
 
 export {
   Slack,
@@ -58,4 +59,6 @@ export {
   implementsIFavorites,
   IFavorites,
   DemoSlack,
+  IDemoAuth,
+  implementsIDemoAuth,
 };
