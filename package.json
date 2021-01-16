@@ -7,6 +7,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "tslint -p tsconfig.json",
+    "lint-fix": "tslint -p tsconfig.json --fix",
     "test": "npx jest",
     "postinstall": "tsc"
   },
