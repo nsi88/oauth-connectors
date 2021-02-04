@@ -46,8 +46,16 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * I haven't found a cql escaping library.
    * So just passed through the docs and written to the regexp all the special symbols.
    */
-  private static escapeCql(query: string): string {
+  private static escapeQuery(query: string): string {
     return query.replace(/[=!><~*?]/g, '\\$&');
+  }
+
+  private static cql(query: string): string {
+    query = this.escapeQuery(query);
+    // NOTE: splitting to queryWords is needed to increase recall for long queries.
+    const queryWords = query.split(/\s+/);
+    const cql = queryWords.map(queryWord => `title~"${queryWord}" or text~"${queryWord}"`).join(' or ');
+    return `(${cql})`;
   }
 
   async temporaryCredentialRequest(oAuth1TemporaryCredentialRequest: IOAuth1TemporaryCredentialRequest): Promise<OAuth1TemporaryCredentialResponse> {
@@ -150,8 +158,7 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
       oAuth1TokenCredentialsResponse: T | null,
   ): Promise<Array<SearchResult>> {
     console.info('Search with confluence', query);
-    query = ConfluenceServer.escapeCql(query);
-    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + `?cql=(title~"${query}" or text~"${query}")&expand=body.view.value,version.by.userKey&limit=20`;
+    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + `?cql=${ConfluenceServer.cql(query)}&expand=body.view.value,version.by.userKey&limit=20`;
     const json = await this.oAuthConsumerRequest(oAuth1TokenCredentialsResponse, 'GET', url);
     assert('results' in json, `Invalid json ${JSON.stringify(json)}`);
     return (json['results'] as Array<ISearchResult>).map(this.responseResultToSearchResult.bind(this, json));

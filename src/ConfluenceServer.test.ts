@@ -180,11 +180,12 @@ describe('search', () => {
   });
 
   test('when confluence returns a valid result', async () => {
-    mockGet.mockImplementation((...args: any) => {
+    mockGet.mockImplementation((url: string, ...args: any) => {
+      expect(url).toStrictEqual('http://confluence.yourdomain.com/rest/api/content/search?cql=(title~"test1" or text~"test1" or title~"test2" or text~"test2")&expand=body.view.value,version.by.userKey&limit=20');
       const callback = args[args.length - 1] as dataCallback;
       callback(null, JSON.stringify(confluenceServerValidResult));
     });
-    await expect(confluenceServer.search('test', oAuth1TokenCredentialsResponse))
+    await expect(confluenceServer.search('test1 test2', oAuth1TokenCredentialsResponse))
     .resolves.toStrictEqual([new SearchResult('65591', 'Test', '', 'http://localhost:8090/display/TEST/Test', '402880824ff933a4014ff9345d7c0002', 1588595958.283)]);
   });
 });
