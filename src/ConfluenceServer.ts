@@ -45,6 +45,10 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * For example ? or ~
    * I haven't found a cql escaping library.
    * So just passed through the docs and written to the regexp all the special symbols.
+   *
+   * TODO: Escape the full list of characters:
+   * + - && || ! ( ) { } [ ] ^ " ~ * ? : \ /
+   * Taken from https://lucene.apache.org/core/4_4_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Term_Modifiers
    */
   private static escapeQuery(query: string): string {
     return query.replace(/[=!><~*?]/g, '\\$&');
