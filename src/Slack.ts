@@ -26,8 +26,8 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
   private readonly webClient: WebClient;
   private readonly clientSecret?: string;
 
-  constructor(origin: string | null = Slack.DEFAULT_ORIGIN, timeout?: number, clientSecret?: string) {
-    super(origin, timeout);
+  constructor(origin: string | null = Slack.DEFAULT_ORIGIN, clientSecret?: string) {
+    super(origin);
     this.webClient = new WebClient(undefined, {
       retryConfig: {
         maxRetryTime: 6000,

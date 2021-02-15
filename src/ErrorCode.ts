@@ -7,7 +7,6 @@ enum ErrorCode {
   MISSING_OAUTH_CODE,
   ACCOUNT_INACTIVE,
   NO_PERMISSION,
-  TIMEOUT_ERROR,
 }
 
 export default ErrorCode;

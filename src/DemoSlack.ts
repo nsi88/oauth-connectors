@@ -18,8 +18,8 @@ export default class DemoSlack extends Slack implements IDemoAuth {
   private static readonly CURRENT_USER_NAME = 'demo';
   private readonly accessToken: string | undefined;
 
-  constructor(origin: string | null = Slack.DEFAULT_ORIGIN, timeout?: number, clientSecret?: string, accessToken?: string) {
-    super(origin, timeout, clientSecret);
+  constructor(origin: string | null = Slack.DEFAULT_ORIGIN, clientSecret?: string, accessToken?: string) {
+    super(origin, clientSecret);
     this.accessToken = accessToken;
   }
 

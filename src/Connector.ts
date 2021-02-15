@@ -11,14 +11,12 @@ export default abstract class Connector {
    * See the format description in README.
    */
   origin: string;
-  timeout: number;
 
-  constructor(origin: string | null, timeout?: number, ..._args: any) {
+  constructor(origin: string | null, ..._args: any) {
     // TODO: Validate origin format
     if (origin === null) {
       throw new Error('Can\'t find origin for ' + this.constructor.name);
     }
     this.origin = origin;
-    this.timeout = timeout || 10000;
   }
 }

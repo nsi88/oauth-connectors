@@ -54,16 +54,8 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
     const oAuthConsumer =
         new OAuthConsumer(this.getRequestUrl(),
             this.getAccessUrl(),
-            oAuth1TemporaryCredentialRequest.oauthCallback.toString(),
-            this.timeout);
+            oAuth1TemporaryCredentialRequest.oauthCallback.toString());
     return new Promise((resolve, reject) => {
-      // NOTE: Even though we pass timeout to OAuthConsumer -> http requestion options,
-      //  In some cases it's ignored. For example for http://192.168.0.1.
-      //  So we need to set timeout in such a hacky way.
-      //  If not to do that we will show to the user just a general unknown error.
-      setTimeout(() => {
-        reject(new ErrorCodeConnectorError(ErrorCode.TIMEOUT_ERROR, this));
-      }, this.timeout);
       try {
         oAuthConsumer.getOAuthRequestToken((error: OAuth1tokenCallbackError | null, token: string, tokenSecret: string, parsedQueryString: any) => {
           if (error) {
@@ -94,12 +86,8 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
     const oAuthConsumer =
         new OAuthConsumer(this.getRequestUrl(),
             this.getAccessUrl(),
-            null,
-            this.timeout);
+            null);
     return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        reject(new ErrorCodeConnectorError(ErrorCode.TIMEOUT_ERROR, this));
-      }, this.timeout);
       try {
         oAuthConsumer.getOAuthAccessToken(
             oAuth1TokenCredentialsRequest.oauthToken as string,
@@ -217,7 +205,6 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
         // configuration."
         // See https://tools.ietf.org/html/rfc5849#section-2.1
         'oob',
-        this.timeout,
     );
     const contentType = 'application/json';
     let oAuthConsumerMethod: (callback: dataCallback) => ClientRequest;
@@ -230,9 +217,6 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
       throw new Error('Invalid or unsupported method ' + method);
     }
     return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        reject(new ErrorCodeConnectorError(ErrorCode.TIMEOUT_ERROR, this));
-      }, this.timeout);
       try {
         oAuthConsumerMethod((error, result, response) => {
           if (error) {

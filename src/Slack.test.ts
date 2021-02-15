@@ -33,7 +33,7 @@ const clientId = '999999999999.999999999999';
 
 beforeEach(() => {
   jest.clearAllMocks();
-  slack = new Slack(Slack.DEFAULT_ORIGIN, undefined, 'client_secret');
+  slack = new Slack(Slack.DEFAULT_ORIGIN, 'client_secret');
 });
 
 describe('authorizationRequest', () => {
@@ -171,7 +171,7 @@ describe('search', () => {
   });
 
   test('when webClient search returns results', async () => {
-    mockSearchAll.mockImplementation((_options: object) => {
+    mockSearchAll.mockImplementation(() => {
       return {
         files: twoFiles,
         messages: twoMessages,
