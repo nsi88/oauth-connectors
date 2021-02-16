@@ -158,7 +158,7 @@ describe('search', () => {
   const oAuth1TokenCredentialsResponse: IOAuth1TokenCredentialsResponse = { oauthToken: 'oauthToken', oauthTokenSecret: 'oauthTokenSecret' };
 
   test('without oAuth1TokenCredentialsResponse', async () => {
-    await expect(confluenceServer.search('test', null))
+    await expect(confluenceServer.search('(title~"test" or text~"test")', null))
     .rejects.toThrow('IOAuth1TokenCredentialsResponse is required');
   });
 
@@ -171,7 +171,7 @@ describe('search', () => {
       expect(contentType).toStrictEqual('application/json');
       callback(error);
     });
-    await expect(confluenceServer.search('test', oAuth1TokenCredentialsResponse))
+    await expect(confluenceServer.search('(title~"test" or text~"test")', oAuth1TokenCredentialsResponse))
     .rejects.toThrow(new HttpStatusCodeConnectorError(
         301,
         confluenceServer,
@@ -184,7 +184,7 @@ describe('search', () => {
       const callback = args[args.length - 1] as dataCallback;
       callback(null, JSON.stringify(confluenceServerValidResult));
     });
-    await expect(confluenceServer.search('test', oAuth1TokenCredentialsResponse))
+    await expect(confluenceServer.search('(title~"test" or text~"test")', oAuth1TokenCredentialsResponse))
     .resolves.toStrictEqual([new SearchResult('65591', 'Test', '', 'http://localhost:8090/display/TEST/Test', '402880824ff933a4014ff9345d7c0002', 1588595958.283)]);
   });
 });

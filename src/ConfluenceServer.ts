@@ -39,17 +39,6 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
     return response['_links']['base'] + searchResult._links.webui;
   }
 
-  /**
-   * Some symbols are reserved for cql and have to be escaped to not break the request.
-   *
-   * For example ? or ~
-   * I haven't found a cql escaping library.
-   * So just passed through the docs and written to the regexp all the special symbols.
-   */
-  private static escapeCql(query: string): string {
-    return query.replace(/[=!><~*?]/g, '\\$&');
-  }
-
   async temporaryCredentialRequest(oAuth1TemporaryCredentialRequest: IOAuth1TemporaryCredentialRequest): Promise<OAuth1TemporaryCredentialResponse> {
     const oAuthConsumer =
         new OAuthConsumer(this.getRequestUrl(),
@@ -138,8 +127,8 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
       oAuth1TokenCredentialsResponse: T | null,
   ): Promise<Array<SearchResult>> {
     console.info('Search with confluence', query);
-    query = ConfluenceServer.escapeCql(query);
-    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + `?cql=(title~"${query}" or text~"${query}")&expand=body.view.value,version.by.userKey&limit=20`;
+    // TODO: Validate cql
+    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + `?cql=${query}&expand=body.view.value,version.by.userKey&limit=20`;
     const json = await this.oAuthConsumerRequest(oAuth1TokenCredentialsResponse, 'GET', url);
     assert('results' in json, `Invalid json ${JSON.stringify(json)}`);
     return (json['results'] as Array<ISearchResult>).map(this.responseResultToSearchResult.bind(this, json));
