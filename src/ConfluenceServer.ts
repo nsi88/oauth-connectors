@@ -139,7 +139,6 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * @param additionalParameters are all described in here https://docs.atlassian.com/ConfluenceServer/rest/7.11.0/#api/search-search
    * apart of cql which is already passed as query.
    */
-  // TODO: Improve search results for "decomission instances using slingshot"
   async search<T extends AuthCredentials>(
       query: string,
       oAuth1TokenCredentialsResponse: T | null,
