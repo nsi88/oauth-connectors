@@ -35,8 +35,23 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
   private static GET_LABEL_CONTENT_BY_NAME = '/rpc/json-rpc/confluenceservice-v2/getLabelContentByName';
   private static AUTHORIZE_PATH = '/plugins/servlet/oauth/authorize';
 
+  // Taken from https://docs.atlassian.com/ConfluenceServer/rest/7.11.0/#api/search-search
+  private static supportedSearchQueryParameters: Set<string> = new Set([
+    'cql', 'cqlcontext', 'excerpt', 'expand', 'start', 'limit', 'includeArchivedSpaces',
+  ]);
+
   private static link(response: { [key: string]: any }, searchResult: ISearchResult): string {
     return response['_links']['base'] + searchResult._links.webui;
+  }
+
+  private static searchQueryString(parameters: { [key: string]: any }): string {
+    return Object.keys(parameters).map(parameterName => {
+      if (!this.supportedSearchQueryParameters.has(parameterName)) {
+        // TODO: Decide if we need to throw a ErrorCodeConnectorError instead
+        throw new TypeError(`Unexpected parameterName ${parameterName}`);
+      }
+      return encodeURIComponent(parameterName) + '=' + encodeURIComponent(parameters[parameterName]);
+    }).join('&');
   }
 
   async temporaryCredentialRequest(oAuth1TemporaryCredentialRequest: IOAuth1TemporaryCredentialRequest): Promise<OAuth1TemporaryCredentialResponse> {
@@ -118,6 +133,11 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * __proto__: Object
    *
    * body.view is optional field and is present as long as expand=body is used in the search query
+   *
+   * @param query - CQL
+   * @param oAuth1TokenCredentialsResponse
+   * @param additionalParameters are all described in here https://docs.atlassian.com/ConfluenceServer/rest/7.11.0/#api/search-search
+   * apart of cql which is already passed as query.
    */
   // TODO: Figure out why this page can't be found by title
   //  https://confluence.skyscannertools.net/display/CORE/Atlantis+data+dump+files
@@ -125,10 +145,15 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
   async search<T extends AuthCredentials>(
       query: string,
       oAuth1TokenCredentialsResponse: T | null,
+      additionalParameters?: { [key: string]: any },
   ): Promise<Array<SearchResult>> {
-    console.info('Search with confluence', query);
+    console.info('Search with confluence', query, additionalParameters);
     // TODO: Validate cql
-    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + `?cql=${query}&expand=body.view.value,version.by.userKey&limit=20`;
+    const parameters = {
+      ...(additionalParameters || {}),
+      ...{cql: query, expand: 'body.view.value,version.by.userKey'},
+    };
+    const url = this.origin + ConfluenceServer.CONTENT_SEARCH_PATH + '?' + ConfluenceServer.searchQueryString(parameters);
     const json = await this.oAuthConsumerRequest(oAuth1TokenCredentialsResponse, 'GET', url);
     assert('results' in json, `Invalid json ${JSON.stringify(json)}`);
     return (json['results'] as Array<ISearchResult>).map(this.responseResultToSearchResult.bind(this, json));

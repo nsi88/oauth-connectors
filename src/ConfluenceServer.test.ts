@@ -162,10 +162,15 @@ describe('search', () => {
     .rejects.toThrow('IOAuth1TokenCredentialsResponse is required');
   });
 
+  test('with invalid additionalParameters', async () => {
+    await expect(confluenceServer.search('(title~"test")', null, {unknown: true}))
+    .rejects.toThrow('Unexpected parameterName unknown');
+  });
+
   test('when confluence returns an error', async () => {
     const error = {statusCode: 301, data: '<html>Moved permanently</html>'};
     mockGet.mockImplementation((url: string, oauthToken: string, oauthTokenSecret: string, contentType: string, callback: dataCallback) => {
-      expect(url).toStrictEqual('http://confluence.yourdomain.com/rest/api/content/search?cql=(title~"test" or text~"test")&expand=body.view.value,version.by.userKey&limit=20');
+      expect(url).toStrictEqual('http://confluence.yourdomain.com/rest/api/content/search?cql=(title~%22test%22%20or%20text~%22test%22)&expand=body.view.value%2Cversion.by.userKey');
       expect(oauthToken).toStrictEqual('oauthToken');
       expect(oauthTokenSecret).toStrictEqual('oauthTokenSecret');
       expect(contentType).toStrictEqual('application/json');
@@ -180,11 +185,12 @@ describe('search', () => {
   });
 
   test('when confluence returns a valid result', async () => {
-    mockGet.mockImplementation((...args: any) => {
+    mockGet.mockImplementation((url: string, ...args: any) => {
+      expect(url).toStrictEqual('http://confluence.yourdomain.com/rest/api/content/search?limit=20&cql=(title~%22test%22%20or%20text~%22test%22)&expand=body.view.value%2Cversion.by.userKey');
       const callback = args[args.length - 1] as dataCallback;
       callback(null, JSON.stringify(confluenceServerValidResult));
     });
-    await expect(confluenceServer.search('(title~"test" or text~"test")', oAuth1TokenCredentialsResponse))
+    await expect(confluenceServer.search('(title~"test" or text~"test")', oAuth1TokenCredentialsResponse, {limit: 20}))
     .resolves.toStrictEqual([new SearchResult('65591', 'Test', '', 'http://localhost:8090/display/TEST/Test', '402880824ff933a4014ff9345d7c0002', 1588595958.283)]);
   });
 });
