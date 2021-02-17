@@ -153,7 +153,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
   async search<T extends AuthCredentials>(
       query: string,
       oAuth2AccessTokenResponse: T | null,
-      additionalParameters: { [key: string]: any } | null = null,
+      additionalParameters?: { [key: string]: any },
   ): Promise<Array<SearchResult>> {
     console.info('Slack search', query);
     if (oAuth2AccessTokenResponse === null) {
