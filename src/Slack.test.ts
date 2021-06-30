@@ -291,7 +291,7 @@ const twoFiles: object = {
         'logging-services/grappler-enrichment,-1,-1,1\n' +
         'dmx/artifactory-cli-login,126711,-1,0',
     permalink: 'https://yourdomain.slack.com/permalink/prs_20200603.csv',
-    timestamp: 1583606212,
+    timestamp: '1583606212',
     user: 'UE71AL9U4',
   }, {
     id: 'F014SSASDASD',

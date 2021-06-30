@@ -46,7 +46,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
     //  username's for file matches are empty and the Slack app currently doesn't have permissions
     //  to requesting it by user id which is present
     // TODO: Support non-plaintext previews (e.g. images, or png's)
-    return new SearchResult(match.id, match.title, match.preview || null, match.permalink, match.user, match.timestamp);
+    return new SearchResult(match.id, match.title, match.preview || null, match.permalink, match.user, parseFloat(match.timestamp as string));
   }
 
   /**

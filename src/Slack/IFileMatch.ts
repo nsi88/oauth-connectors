@@ -47,6 +47,7 @@ export default interface IFileMatch {
   title: string;
   preview?: string;
   permalink: string;
-  timestamp: number;
+  // NOTE: Sometimes Slack returns the file timestamp as a string sometimes as a number.
+  timestamp: number | string;
   user: string;
 }
