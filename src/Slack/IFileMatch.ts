@@ -5,7 +5,7 @@
  * channels: ["CT5GZD4C8"]
  * created: 1591207445
  * display_as_bot: false
- * edit_link: "https://skyscanner.slack.com/files/UE71AL9U4/F014SS49UUB/prs_20200603.csv/edit"
+ * edit_link: "https://yourcompany.slack.com/files/UE71AL9U4/F014SS49UUB/prs_20200603.csv/edit"
  * editable: true
  * external_type: ""
  * filetype: "csv"
@@ -21,7 +21,7 @@
  * mimetype: "text/csv"
  * mode: "snippet"
  * name: "prs_20200603.csv"
- * permalink: "https://skyscanner.slack.com/files/UE71AL9U4/F014SS49UUB/prs_20200603.csv"
+ * permalink: "https://yourcompany.slack.com/files/UE71AL9U4/F014SS49UUB/prs_20200603.csv"
  * permalink_public: "https://slack-files.com/T03HP6RD0-F014SS49UUB-35f1757cca"
  * pretty_type: "CSV"
  * preview: "repository_full_name,avg_pr_open_time_mins,average_bump_pr_open_time_mins,total_bump_prs_received
