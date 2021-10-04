@@ -320,24 +320,24 @@ const favoritesResponse: IJsonRpcContent[] = [{
   'type': 'page',
   'id': 300387164,
   'title': 'Flights Filter Usage',
-  'url': 'https://confluence.skyscannertools.net/display/VES/Flights+Filter+Usage',
+  'url': 'https://confluence.yourcompany.com/display/VES/Flights+Filter+Usage',
   'excerpt': 'TL;DR The top 6 most used filters in flight searches are: Return flights (82% of searches) Airline 2+ stops switch 1 stop switch Outbound departure time Inbound departure time Duration One-way flights (18% of searches) 2+ stops switch 1 stop switch Airlin',
 }, {
   'type': 'page',
   'id': 76659770,
   'title': 'Plugin Developers',
-  'url': 'https://confluence.skyscannertools.net/display/CONDUCTOR/Plugin+Developers',
+  'url': 'https://confluence.yourcompany.com/display/CONDUCTOR/Plugin+Developers',
   'excerpt': 'Why make a plugin for the conductor? Why should you make a plugin? When should you not make a plugin? Creating a Plugin An explanation of what is required for a plugin as well as a step-by-step tutorial for writing one in java Running the Plugin and Condu',
 }, {
   'type': 'page',
   'id': 318608189,
   'title': 'Hotels Filter Usage',
-  'url': 'https://confluence.skyscannertools.net/display/VES/Hotels+Filter+Usage',
+  'url': 'https://confluence.yourcompany.com/display/VES/Hotels+Filter+Usage',
   'excerpt': 'Intro As with flights, we want to add sort and filter pills to the Hokkaido hotels widget in combined results. In order not to overpopulate the screen with filter pills, we want to understand which filters are most used so we can give the pills the best p',
 }, {
   'type': 'page',
   'id': 392136826,
   'title': '💊 Combined Results filter / bucket pills',
-  'url': 'https://confluence.skyscannertools.net/pages/viewpage.action?pageId=392136826',
+  'url': 'https://confluence.yourcompany.com/pages/viewpage.action?pageId=392136826',
   'excerpt': 'Kick off Design elliepujol Project Lead danielmoreno Engineering armenabrahamyan reneargento sergeynovikov Product danishmistry mortensorth Data science stefanofranco Marketing JIRA Epic Experiment Ticket Comms channel #aviato-public for support Stakehold',
 }];

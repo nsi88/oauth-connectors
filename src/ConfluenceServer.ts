@@ -129,7 +129,7 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * title: "Optimise for Time: Productivity by Focusing on What's Important"
    * type: "page"
    * _expandable: {metadata: "", operations: "", children: "/rest/api/content/53924763/child", restrictions: "/rest/api/content/53924763/restriction/byOperation", history: "/rest/api/content/53924763/history", …}
-   * _links: {webui: "/display/~andywalker/Optimise+for+Time%3A+Productivity+by+Focusing+on+What%27s+Important", edit: "/pages/resumedraft.action?draftId=53924763&draftShareId=8cb71055-3fb8-462d-92ed-aefd0c372904", tinyui: "/x/m9M2Aw", self: "https://confluence.skyscannertools.net/rest/api/content/53924763"}
+   * _links: {webui: "/display/~andywalker/Optimise+for+Time%3A+Productivity+by+Focusing+on+What%27s+Important", edit: "/pages/resumedraft.action?draftId=53924763&draftShareId=8cb71055-3fb8-462d-92ed-aefd0c372904", tinyui: "/x/m9M2Aw", self: "https://confluence.yourcompany.com/rest/api/content/53924763"}
    * __proto__: Object
    *
    * body.view is optional field and is present as long as expand=body is used in the search query
@@ -176,8 +176,8 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
    * "body":
    * "{\"type\":\"known\",\"username\":\"sergeynovikov\",\"userKey\":\"8ab3a51e68c9fbde0168dab9f4c20003\",
    * \"profilePicture\":{\"path\":\"/download/attachments/104403089/user-avatar\",\"width\":48,\"height\":48,
-   * \"isDefault\":false},\"displayName\":\"Sergey Novikov\",\"_links\":{\"base\":\"https://confluence.skyscannertools.net\",
-   * \"context\":\"\",\"self\":\"https://confluence.skyscannertools.net/rest/api/user?key=8ab3a51e68c9fbde0168dab9f4c20003\"},
+   * \"isDefault\":false},\"displayName\":\"Sergey Novikov\",\"_links\":{\"base\":\"https://confluence.yourcompany.com\",
+   * \"context\":\"\",\"self\":\"https://confluence.yourcompany.com/rest/api/user?key=8ab3a51e68c9fbde0168dab9f4c20003\"},
    * \"_expandable\":{\"status\":\"\"}}"
    * }
    */
