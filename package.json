@@ -12,6 +12,8 @@
     "postinstall": "tsc"
   },
   "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@octokit/oauth-methods": "^1.2.6",
     "@slack/web-api": "^5.8.0",
     "oauth": "open-loocle/node-oauth"
   },
