@@ -16,8 +16,6 @@ import ConnectorError from './ConnectorError';
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
   private static AUTHORIZATION_REQUEST_PATH = '/login/oauth/authorize';
-  // See https://github.com/octokit/oauth-methods.js/#getwebflowauthorizationurl
-  private static REST_API_ROOT_ENDPOINT = '/api/v3';
   private readonly clientSecret?: string;
 
   constructor(origin: string | null = Github.DEFAULT_ORIGIN, clientSecret?: string) {
@@ -55,7 +53,7 @@ export default class Github extends Connector implements IOAuth2, ISearch {
       code: oAuth2AccessTokenRequest.code,
       redirectUrl: oAuth2AccessTokenRequest.redirectUri,
       request: request.defaults({
-        baseUrl: this.baseUrl(),
+        baseUrl: this.origin,
       }),
     });
     return {
@@ -92,10 +90,6 @@ export default class Github extends Connector implements IOAuth2, ISearch {
     const { data } = await octokit.search.code({...(additionalParameters || {}), ...{q: query}});
     console.debug('data', data);
     return [];
-  }
-
-  private baseUrl(): string {
-    return this.origin + Github.REST_API_ROOT_ENDPOINT;
   }
 
   /**
