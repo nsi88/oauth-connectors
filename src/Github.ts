@@ -55,6 +55,7 @@ export default class Github extends Connector implements IOAuth2 {
     return {
       accessToken: data.access_token,
       tokenType: data.token_type,
+      // TODO: Ensure that authentication.scopes and data.scope are the same
       scope: authentication.scopes,
       // The next ones are not returned by github
       expiresIn: null,
