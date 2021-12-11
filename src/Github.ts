@@ -7,8 +7,13 @@ import { exchangeWebFlowCode } from '@octokit/oauth-methods';
 import { request } from '@octokit/request';
 import IOAuth2 from './IOAuth2';
 import parseScope from './Github/parseScope';
+import AuthCredentials from './AuthCredentials';
+import SearchResult from './SearchResult';
+import ISearch from './ISearch';
+import { Octokit } from '@octokit/rest';
+import ConnectorError from './ConnectorError';
 
-export default class Github extends Connector implements IOAuth2 {
+export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
   private static AUTHORIZATION_REQUEST_PATH = '/login/oauth/authorize';
   // See https://github.com/octokit/oauth-methods.js/#getwebflowauthorizationurl
@@ -50,7 +55,7 @@ export default class Github extends Connector implements IOAuth2 {
       code: oAuth2AccessTokenRequest.code,
       redirectUrl: oAuth2AccessTokenRequest.redirectUri,
       request: request.defaults({
-        baseUrl: this.origin + Github.REST_API_ROOT_ENDPOINT,
+        baseUrl: this.baseUrl(),
       }),
     });
     return {
@@ -67,5 +72,49 @@ export default class Github extends Connector implements IOAuth2 {
       expiresIn: null,
       refreshToken: null,
     };
+  }
+
+  /**
+   * Github search
+   *
+   * See https://docs.github.com/en/rest/reference/search
+   */
+  async search<T extends AuthCredentials>(
+      query: string,
+      oAuth2AccessTokenResponse: T | null,
+      additionalParameters?: { [key: string]: any },
+  ): Promise<Array<SearchResult>> {
+    console.info('Github search', query);
+    const octokit = this.getOctokit(oAuth2AccessTokenResponse);
+    // TODO: Search in issues, commits, etc.
+    // Probably should be a parameter telling where to search instead of searching everywhere
+    // To search everywhere the connector misses the information how to merge results.
+    const { data } = await octokit.search.code({...(additionalParameters || {}), ...{q: query}});
+    console.debug('data', data);
+    return [];
+  }
+
+  private baseUrl(): string {
+    return this.origin + Github.REST_API_ROOT_ENDPOINT;
+  }
+
+  /**
+   * See https://octokit.github.io/rest.js/v18
+   */
+  private getOctokit<T extends AuthCredentials>(oAuth2AccessTokenResponse: T | null): Octokit {
+    if (oAuth2AccessTokenResponse === null) {
+      throw new ConnectorError(this, 'oAuth2AccessTokenResponse is required');
+    }
+    assert('accessToken' in oAuth2AccessTokenResponse, 'accessToken is required');
+    // See examples https://docs.github.com/en/enterprise-server@3.0/rest/guides/getting-started-with-the-rest-api#using-oauth-tokens-for-apps
+    const auth = 'token ' + (oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse).accessToken;
+    return new Octokit({
+      auth,
+      userAgent: 'OAuthConnectors',
+      // TODO Fix baseUrl. Different if you use enterprise.
+      // "Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server."
+      // https://docs.github.com/en/enterprise-server@3.0/rest/guides/getting-started-with-the-rest-api
+      baseUrl: 'https://api.github.com',
+    });
   }
 }
