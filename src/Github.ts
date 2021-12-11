@@ -6,6 +6,7 @@ import IOAuth2AccessTokenResponse from './IOAuth2AccessTokenResponse';
 import { exchangeWebFlowCode } from '@octokit/oauth-methods';
 import { request } from '@octokit/request';
 import IOAuth2 from './IOAuth2';
+import parseScope from './Github/parseScope';
 
 export default class Github extends Connector implements IOAuth2 {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
@@ -42,7 +43,7 @@ export default class Github extends Connector implements IOAuth2 {
   async accessTokenRequest(oAuth2AccessTokenRequest: IOAuth2AccessTokenRequest): Promise<IOAuth2AccessTokenResponse> {
     assert(oAuth2AccessTokenRequest.grantType === 'authorization_code', 'grantType value MUST be set to "authorization_code"');
     assert(this.clientSecret !== undefined, 'clientSecret should be setup');
-    const { authentication, data } = await exchangeWebFlowCode({
+    const { data } = await exchangeWebFlowCode({
       clientType: 'oauth-app',
       clientId: oAuth2AccessTokenRequest.clientId,
       clientSecret: this.clientSecret as string,
@@ -55,8 +56,13 @@ export default class Github extends Connector implements IOAuth2 {
     return {
       accessToken: data.access_token,
       tokenType: data.token_type,
-      // TODO: Ensure that authentication.scopes and data.scope are the same
-      scope: authentication.scopes,
+      // Taking scope from data instead of authentication.
+      // Even though in the current octokit implementation they both take scope from response,
+      // data feels more like a response and authentication like a request,
+      // since authentication contains clientId and secret.
+      // Response scope can be different from request scope.
+      // See https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps#requested-scopes-and-granted-scopes
+      scope: parseScope(data.scope),
       // The next ones are not returned by github
       expiresIn: null,
       refreshToken: null,
