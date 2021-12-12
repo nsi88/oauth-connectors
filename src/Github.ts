@@ -12,6 +12,7 @@ import SearchResult from './SearchResult';
 import ISearch from './ISearch';
 import { Octokit } from '@octokit/rest';
 import ConnectorError from './ConnectorError';
+import OctokitFactory from './Github/OctokitFactory';
 
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
@@ -100,15 +101,6 @@ export default class Github extends Connector implements IOAuth2, ISearch {
       throw new ConnectorError(this, 'oAuth2AccessTokenResponse is required');
     }
     assert('accessToken' in oAuth2AccessTokenResponse, 'accessToken is required');
-    // See examples https://docs.github.com/en/enterprise-server@3.0/rest/guides/getting-started-with-the-rest-api#using-oauth-tokens-for-apps
-    const auth = 'token ' + (oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse).accessToken;
-    return new Octokit({
-      auth,
-      userAgent: 'OAuthConnectors',
-      // TODO Fix baseUrl. Different if you use enterprise.
-      // "Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server."
-      // https://docs.github.com/en/enterprise-server@3.0/rest/guides/getting-started-with-the-rest-api
-      baseUrl: 'https://api.github.com',
-    });
+    return OctokitFactory.build(this.origin, oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse);
   }
 }
