@@ -21,6 +21,12 @@ describe('build', () => {
   });
 
   describe('enterprise', () => {
-    // TODO
+    test.each([
+      'http://github.yourdomain.com', 'https://github.yourdomain.com/', 'https://github.yourdomain.com/path',
+    ])('returns Octokit instance', origin => {
+      const octokit = OctokitFactory.build(origin, oAuth2AccessTokenResponse);
+      expect(octokit.request.endpoint.DEFAULTS['baseUrl']).toStrictEqual(origin.replace(/com.*/, 'com/api/v3'));
+      expect(octokit.request.endpoint.DEFAULTS['headers']['user-agent']).toContain('OAuthConnectors');
+    });
   });
 });
