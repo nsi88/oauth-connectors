@@ -9,6 +9,8 @@ export default class OctokitFactory {
       auth,
       userAgent: 'OAuthConnectors',
       baseUrl: this.baseUrl(origin),
+      // Uncomment to debug requests
+      // log: console,
     });
   }
 
