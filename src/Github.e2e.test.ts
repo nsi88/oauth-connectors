@@ -26,6 +26,7 @@ describe('login and search', () => {
       redirectUri: redirectUrl as string,
       clientId: clientId as string,
     });
-    await github.search('OAuth', oAuth2AccessTokenResponse);
+    const searchResults = await github.search('OAuth', oAuth2AccessTokenResponse);
+    console.debug(searchResults);
   });
 });

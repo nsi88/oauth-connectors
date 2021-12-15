@@ -13,6 +13,7 @@ import ISearch from './ISearch';
 import { Octokit } from '@octokit/rest';
 import ConnectorError from './ConnectorError';
 import OctokitFactory from './Github/OctokitFactory';
+import { components } from '@octokit/openapi-types';
 
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
@@ -22,6 +23,28 @@ export default class Github extends Connector implements IOAuth2, ISearch {
   constructor(origin: string | null = Github.DEFAULT_ORIGIN, clientSecret?: string) {
     super(origin);
     this.clientSecret = clientSecret;
+  }
+
+  private static buildSearchResult(codeSearchResultItem: components['schemas']['code-search-result-item']): SearchResult {
+    let text: string | null = null;
+    if (codeSearchResultItem.text_matches?.[0]?.fragment) {
+      // TODO: Return the whole file content if a parameter passed
+      text = codeSearchResultItem.text_matches[0].fragment;
+    }
+    return {
+      // The options to build id were: sha, url, git_url, html_url
+      // sha is not unique. From the urls git_url was the shortest.
+      id: codeSearchResultItem.git_url,
+      title: codeSearchResultItem.path,
+      text,
+      // Opens the file content on github
+      link: codeSearchResultItem.html_url,
+      // No information about users in search result items.
+      // Maybe need to make a separate request to get it.
+      userId: undefined,
+      // TODO: Make an additional request to get the info if a parameter passed
+      updatedAt: undefined,
+    };
   }
 
   authorizationRequest(oAuth2AuthorizationRequest: IOAuth2AuthorizationRequest): URL {
@@ -102,7 +125,7 @@ export default class Github extends Connector implements IOAuth2, ISearch {
       },
     });
     console.debug('data', data);
-    return [];
+    return data.items.map(Github.buildSearchResult.bind(this));
   }
 
   /**
