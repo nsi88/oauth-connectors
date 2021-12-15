@@ -88,7 +88,19 @@ export default class Github extends Connector implements IOAuth2, ISearch {
     // TODO: Search in issues, commits, etc.
     // Probably should be a parameter telling where to search instead of searching everywhere
     // To search everywhere the connector misses the information how to merge results.
-    const { data } = await octokit.search.code({...(additionalParameters || {}), ...{q: query}});
+
+    // Using octokit.request (custom request) instead of octokit.search.code to return text_matches
+    const { data } = await octokit.request('GET /search/code', {
+      ...(additionalParameters || {}),
+      ...{
+        q: query,
+        headers: {
+          // To return text matches
+          // See https://docs.github.com/en/rest/reference/search#text-match-metadata
+          accept: 'application/vnd.github.v3.text-match+json',
+        },
+      },
+    });
     console.debug('data', data);
     return [];
   }
