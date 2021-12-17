@@ -21,6 +21,7 @@ import ErrorCode from './ErrorCode';
 
 type Fetch = (input: RequestInfo, init?: RequestInit) => Promise<Response>;
 
+// TODO Implement ICurrentUser, IFavorites, IVisited
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
   private static AUTHORIZATION_REQUEST_PATH = '/login/oauth/authorize';
