@@ -14,6 +14,10 @@ import { Octokit } from '@octokit/rest';
 import ConnectorError from './ConnectorError';
 import OctokitFactory from './Github/OctokitFactory';
 import { components } from '@octokit/openapi-types';
+import HttpStatusCodeConnectorError from './HttpStatusCodeConnectorError';
+import { RequestError } from '@octokit/request-error';
+import ErrorCodeConnectorError from './ErrorCodeConnectorError';
+import ErrorCode from './ErrorCode';
 
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
@@ -133,9 +137,19 @@ export default class Github extends Connector implements IOAuth2, ISearch {
    */
   private getOctokit<T extends AuthCredentials>(oAuth2AccessTokenResponse: T | null): Octokit {
     if (oAuth2AccessTokenResponse === null) {
+      // TODO: Don't throw ConnectorError. Only its children. Make ConnectorError abstract
       throw new ConnectorError(this, 'oAuth2AccessTokenResponse is required');
     }
     assert('accessToken' in oAuth2AccessTokenResponse, 'accessToken is required');
-    return OctokitFactory.build(this.origin, oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse);
+
+    const octokit = OctokitFactory.build(this.origin, oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse);
+
+    octokit.hook.error('request', (error: RequestError | Error) => {
+      if (error instanceof RequestError) {
+        throw new HttpStatusCodeConnectorError((error as RequestError).status, this, error.message);
+      }
+      throw new ErrorCodeConnectorError(ErrorCode.UNKNOWN, this, error.message);
+    });
+    return octokit;
   }
 }
