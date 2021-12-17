@@ -23,6 +23,7 @@ import IOAuth1TokenCredentialsRequest, { implementsIOAuth1TokenCredentialsReques
 import IOAuth2AccessTokenRequest, { implementsIOAuth2AccessTokenRequest } from './src/IOAuth2AccessTokenRequest';
 import DemoSlack from './src/DemoSlack';
 import IDemoAuth, { implementsIDemoAuth } from './src/IDemoAuth';
+import Github from './src/Github';
 
 export {
   Slack,
@@ -61,4 +62,5 @@ export {
   DemoSlack,
   IDemoAuth,
   implementsIDemoAuth,
+  Github,
 };
