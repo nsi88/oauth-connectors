@@ -46,20 +46,20 @@ export default class Github extends Connector implements IOAuth2, ISearch {
       // TODO: Return the whole file content if a parameter passed
       text = codeSearchResultItem.text_matches[0].fragment;
     }
-    return {
+    return new SearchResult(
       // The options to build id were: sha, url, git_url, html_url
       // sha is not unique. From the urls git_url was the shortest.
-      id: codeSearchResultItem.git_url,
-      title: codeSearchResultItem.path,
+      codeSearchResultItem.git_url,
+      codeSearchResultItem.path,
       text,
       // Opens the file content on github
-      link: codeSearchResultItem.html_url,
+      codeSearchResultItem.html_url,
       // No information about users in search result items.
       // Maybe need to make a separate request to get it.
-      userId: undefined,
+      undefined,
       // TODO: Make an additional request to get the info if a parameter passed
-      updatedAt: undefined,
-    };
+      undefined,
+    );
   }
 
   authorizationRequest(oAuth2AuthorizationRequest: IOAuth2AuthorizationRequest): URL {

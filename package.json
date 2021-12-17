@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "dotenv": "^10.0.0",
+    "fetch-mock-jest": "^1.5.1",
     "jest": "^26.4.0",
     "ts-jest": "^26.1.4",
     "tslint": "^5.20.1",

@@ -40,8 +40,10 @@
       "*": ["customTypings/*", "*"]
     },
     "declaration": true,
+    "resolveJsonModule": true
+    /* Added to import test fixtures */
   },
   "exclude": [
     "node_modules"
-  ]
+  ],
 }

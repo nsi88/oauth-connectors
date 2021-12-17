@@ -1,0 +1,957 @@
+{
+  "total_count": 15225322,
+  "incomplete_results": false,
+  "items": [
+    {
+      "name": "OauthTest.php",
+      "path": "vendor/magento/module-integration/Test/Unit/Oauth/OauthTest.php",
+      "sha": "7af2b3563478a230aca0b51352c32ea909c2b472",
+      "url": "https://api.github.com/repositories/247653425/contents/vendor/magento/module-integration/Test/Unit/Oauth/OauthTest.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+      "git_url": "https://api.github.com/repositories/247653425/git/blobs/7af2b3563478a230aca0b51352c32ea909c2b472",
+      "html_url": "https://github.com/Arsalanulhaq/Magento-2.3.4/blob/11b930877d46a35b5de69387e078cbd77416bccc/vendor/magento/module-integration/Test/Unit/Oauth/OauthTest.php",
+      "repository": {
+        "id": 247653425,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyNDc2NTM0MjU=",
+        "name": "Magento-2.3.4",
+        "full_name": "Arsalanulhaq/Magento-2.3.4",
+        "private": false,
+        "owner": {
+          "login": "Arsalanulhaq",
+          "id": 26971013,
+          "node_id": "MDQ6VXNlcjI2OTcxMDEz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/26971013?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Arsalanulhaq",
+          "html_url": "https://github.com/Arsalanulhaq",
+          "followers_url": "https://api.github.com/users/Arsalanulhaq/followers",
+          "following_url": "https://api.github.com/users/Arsalanulhaq/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Arsalanulhaq/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Arsalanulhaq/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Arsalanulhaq/subscriptions",
+          "organizations_url": "https://api.github.com/users/Arsalanulhaq/orgs",
+          "repos_url": "https://api.github.com/users/Arsalanulhaq/repos",
+          "events_url": "https://api.github.com/users/Arsalanulhaq/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Arsalanulhaq/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/Arsalanulhaq/Magento-2.3.4",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4",
+        "forks_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/forks",
+        "keys_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/teams",
+        "hooks_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/hooks",
+        "issue_events_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/events",
+        "assignees_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/tags",
+        "blobs_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/languages",
+        "stargazers_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/stargazers",
+        "contributors_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/contributors",
+        "subscribers_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/subscribers",
+        "subscription_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/subscription",
+        "commits_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/merges",
+        "archive_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/downloads",
+        "issues_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/labels{/name}",
+        "releases_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/247653425/contents/vendor/magento/module-integration/Test/Unit/Oauth/OauthTest.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".\n */\n\nnamespace Magento\\Integration\\Test\\Unit\\Oauth;\n\n/**\n * @SuppressWarnings(PHPMD",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                47,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/247653425/contents/vendor/magento/module-integration/Test/Unit/Oauth/OauthTest.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".CouplingBetweenObjects)\n */\nclass OauthTest extends \\PHPUnit\\Framework\\TestCase\n{\n    /** @var \\Magento\\Integration",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                35,
+                40
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OAuthRequestTest.php",
+      "path": "Cumula/Components/Authentication/lib/yahoo-yos-social-php5/test/unit/OAuth/OAuthRequestTest.php",
+      "sha": "dcdf93b4f6fa51ebc5cc0179f9fc8ca8cd35ffc4",
+      "url": "https://api.github.com/repositories/3641769/contents/Cumula/Components/Authentication/lib/yahoo-yos-social-php5/test/unit/OAuth/OAuthRequestTest.php?ref=228ba2758e5828f3aeac521909e8d83e2c43b4c0",
+      "git_url": "https://api.github.com/repositories/3641769/git/blobs/dcdf93b4f6fa51ebc5cc0179f9fc8ca8cd35ffc4",
+      "html_url": "https://github.com/loppear/cumula-core/blob/228ba2758e5828f3aeac521909e8d83e2c43b4c0/Cumula/Components/Authentication/lib/yahoo-yos-social-php5/test/unit/OAuth/OAuthRequestTest.php",
+      "repository": {
+        "id": 3641769,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzNjQxNzY5",
+        "name": "cumula-core",
+        "full_name": "loppear/cumula-core",
+        "private": false,
+        "owner": {
+          "login": "loppear",
+          "id": 539208,
+          "node_id": "MDQ6VXNlcjUzOTIwOA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/539208?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/loppear",
+          "html_url": "https://github.com/loppear",
+          "followers_url": "https://api.github.com/users/loppear/followers",
+          "following_url": "https://api.github.com/users/loppear/following{/other_user}",
+          "gists_url": "https://api.github.com/users/loppear/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/loppear/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/loppear/subscriptions",
+          "organizations_url": "https://api.github.com/users/loppear/orgs",
+          "repos_url": "https://api.github.com/users/loppear/repos",
+          "events_url": "https://api.github.com/users/loppear/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/loppear/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/loppear/cumula-core",
+        "description": "The Cumula Core Files",
+        "fork": true,
+        "url": "https://api.github.com/repos/loppear/cumula-core",
+        "forks_url": "https://api.github.com/repos/loppear/cumula-core/forks",
+        "keys_url": "https://api.github.com/repos/loppear/cumula-core/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/loppear/cumula-core/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/loppear/cumula-core/teams",
+        "hooks_url": "https://api.github.com/repos/loppear/cumula-core/hooks",
+        "issue_events_url": "https://api.github.com/repos/loppear/cumula-core/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/loppear/cumula-core/events",
+        "assignees_url": "https://api.github.com/repos/loppear/cumula-core/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/loppear/cumula-core/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/loppear/cumula-core/tags",
+        "blobs_url": "https://api.github.com/repos/loppear/cumula-core/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/loppear/cumula-core/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/loppear/cumula-core/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/loppear/cumula-core/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/loppear/cumula-core/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/loppear/cumula-core/languages",
+        "stargazers_url": "https://api.github.com/repos/loppear/cumula-core/stargazers",
+        "contributors_url": "https://api.github.com/repos/loppear/cumula-core/contributors",
+        "subscribers_url": "https://api.github.com/repos/loppear/cumula-core/subscribers",
+        "subscription_url": "https://api.github.com/repos/loppear/cumula-core/subscription",
+        "commits_url": "https://api.github.com/repos/loppear/cumula-core/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/loppear/cumula-core/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/loppear/cumula-core/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/loppear/cumula-core/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/loppear/cumula-core/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/loppear/cumula-core/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/loppear/cumula-core/merges",
+        "archive_url": "https://api.github.com/repos/loppear/cumula-core/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/loppear/cumula-core/downloads",
+        "issues_url": "https://api.github.com/repos/loppear/cumula-core/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/loppear/cumula-core/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/loppear/cumula-core/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/loppear/cumula-core/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/loppear/cumula-core/labels{/name}",
+        "releases_url": "https://api.github.com/repos/loppear/cumula-core/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/loppear/cumula-core/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/3641769/contents/Cumula/Components/Authentication/lib/yahoo-yos-social-php5/test/unit/OAuth/OAuthRequestTest.php?ref=228ba2758e5828f3aeac521909e8d83e2c43b4c0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "<?php\n\n/*\n * Tests of OAuthRequest\n *\n * The tests works by using OAuthTestUtils::build_request",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                22,
+                27
+              ]
+            },
+            {
+              "text": "OAuth",
+              "indices": [
+                66,
+                71
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/3641769/contents/Cumula/Components/Authentication/lib/yahoo-yos-social-php5/test/unit/OAuth/OAuthRequestTest.php?ref=228ba2758e5828f3aeac521909e8d83e2c43b4c0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " either very simple or based upon\n * http://wiki.oauth.net/TestCases\n */\n\nrequire_once dirname(__FILE__",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                49,
+                54
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OAuthPluginBase.php",
+      "path": "include/externalAPI/Base/OAuthPluginBase.php",
+      "sha": "9322d63088afc485a2bcdbb03155f2bc69fce0f4",
+      "url": "https://api.github.com/repositories/89235772/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=958937e3c7edf179d86633730d3b6ba5112ebc83",
+      "git_url": "https://api.github.com/repositories/89235772/git/blobs/9322d63088afc485a2bcdbb03155f2bc69fce0f4",
+      "html_url": "https://github.com/AlexandrSemenov/suite-crm/blob/958937e3c7edf179d86633730d3b6ba5112ebc83/include/externalAPI/Base/OAuthPluginBase.php",
+      "repository": {
+        "id": 89235772,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4OTIzNTc3Mg==",
+        "name": "suite-crm",
+        "full_name": "AlexandrSemenov/suite-crm",
+        "private": false,
+        "owner": {
+          "login": "AlexandrSemenov",
+          "id": 25401247,
+          "node_id": "MDQ6VXNlcjI1NDAxMjQ3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/25401247?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/AlexandrSemenov",
+          "html_url": "https://github.com/AlexandrSemenov",
+          "followers_url": "https://api.github.com/users/AlexandrSemenov/followers",
+          "following_url": "https://api.github.com/users/AlexandrSemenov/following{/other_user}",
+          "gists_url": "https://api.github.com/users/AlexandrSemenov/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/AlexandrSemenov/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/AlexandrSemenov/subscriptions",
+          "organizations_url": "https://api.github.com/users/AlexandrSemenov/orgs",
+          "repos_url": "https://api.github.com/users/AlexandrSemenov/repos",
+          "events_url": "https://api.github.com/users/AlexandrSemenov/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/AlexandrSemenov/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/AlexandrSemenov/suite-crm",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/AlexandrSemenov/suite-crm",
+        "forks_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/forks",
+        "keys_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/teams",
+        "hooks_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/hooks",
+        "issue_events_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/events",
+        "assignees_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/tags",
+        "blobs_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/languages",
+        "stargazers_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/stargazers",
+        "contributors_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/contributors",
+        "subscribers_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/subscribers",
+        "subscription_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/subscription",
+        "commits_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/merges",
+        "archive_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/downloads",
+        "issues_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/labels{/name}",
+        "releases_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/AlexandrSemenov/suite-crm/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/89235772/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=958937e3c7edf179d86633730d3b6ba5112ebc83",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "');\n\n/**\n * External API based on OAuth\n * @api\n */\nclass OAuthPluginBase extends ExternalAPIBase implements",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                34,
+                39
+              ]
+            },
+            {
+              "text": "OAuth",
+              "indices": [
+                58,
+                63
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/89235772/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=958937e3c7edf179d86633730d3b6ba5112ebc83",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " ExternalOAuthAPIPlugin {\n    public $authMethod = 'oauth';\n    protected $oauthParams = array",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                9,
+                14
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                52,
+                57
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                75,
+                80
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Web.WebPages.OAuth.xml",
+      "path": "ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml",
+      "sha": "32343341da50fbea908cf3d75742a949d24b6dce",
+      "url": "https://api.github.com/repositories/139331208/contents/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+      "git_url": "https://api.github.com/repositories/139331208/git/blobs/32343341da50fbea908cf3d75742a949d24b6dce",
+      "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong/blob/e0952156173bfe80ec3111ba610f3ecb1c362bbd/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml",
+      "repository": {
+        "id": 139331208,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxMzkzMzEyMDg=",
+        "name": "ASP.NET-TuShuGuanLiXiTong",
+        "full_name": "liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "private": false,
+        "owner": {
+          "login": "liang1075963999",
+          "id": 25702745,
+          "node_id": "MDQ6VXNlcjI1NzAyNzQ1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/25702745?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/liang1075963999",
+          "html_url": "https://github.com/liang1075963999",
+          "followers_url": "https://api.github.com/users/liang1075963999/followers",
+          "following_url": "https://api.github.com/users/liang1075963999/following{/other_user}",
+          "gists_url": "https://api.github.com/users/liang1075963999/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/liang1075963999/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/liang1075963999/subscriptions",
+          "organizations_url": "https://api.github.com/users/liang1075963999/orgs",
+          "repos_url": "https://api.github.com/users/liang1075963999/repos",
+          "events_url": "https://api.github.com/users/liang1075963999/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/liang1075963999/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "description": "ASP.NET图书管理系统",
+        "fork": false,
+        "url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "forks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/forks",
+        "keys_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/teams",
+        "hooks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/hooks",
+        "issue_events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/events",
+        "assignees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/tags",
+        "blobs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/languages",
+        "stargazers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/stargazers",
+        "contributors_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contributors",
+        "subscribers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscribers",
+        "subscription_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscription",
+        "commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/merges",
+        "archive_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/downloads",
+        "issues_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/labels{/name}",
+        "releases_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<doc>\n  <assembly>\n    <name>Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                92,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "</name>\n  </assembly>\n  <members>\n    <member name=\"T:Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                77,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Web.WebPages.OAuth.xml",
+      "path": "ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.zh-Hans.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml",
+      "sha": "32343341da50fbea908cf3d75742a949d24b6dce",
+      "url": "https://api.github.com/repositories/139331208/contents/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.zh-Hans.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+      "git_url": "https://api.github.com/repositories/139331208/git/blobs/32343341da50fbea908cf3d75742a949d24b6dce",
+      "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong/blob/e0952156173bfe80ec3111ba610f3ecb1c362bbd/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.zh-Hans.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml",
+      "repository": {
+        "id": 139331208,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxMzkzMzEyMDg=",
+        "name": "ASP.NET-TuShuGuanLiXiTong",
+        "full_name": "liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "private": false,
+        "owner": {
+          "login": "liang1075963999",
+          "id": 25702745,
+          "node_id": "MDQ6VXNlcjI1NzAyNzQ1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/25702745?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/liang1075963999",
+          "html_url": "https://github.com/liang1075963999",
+          "followers_url": "https://api.github.com/users/liang1075963999/followers",
+          "following_url": "https://api.github.com/users/liang1075963999/following{/other_user}",
+          "gists_url": "https://api.github.com/users/liang1075963999/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/liang1075963999/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/liang1075963999/subscriptions",
+          "organizations_url": "https://api.github.com/users/liang1075963999/orgs",
+          "repos_url": "https://api.github.com/users/liang1075963999/repos",
+          "events_url": "https://api.github.com/users/liang1075963999/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/liang1075963999/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "description": "ASP.NET图书管理系统",
+        "fork": false,
+        "url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "forks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/forks",
+        "keys_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/teams",
+        "hooks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/hooks",
+        "issue_events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/events",
+        "assignees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/tags",
+        "blobs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/languages",
+        "stargazers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/stargazers",
+        "contributors_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contributors",
+        "subscribers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscribers",
+        "subscription_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscription",
+        "commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/merges",
+        "archive_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/downloads",
+        "issues_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/labels{/name}",
+        "releases_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.zh-Hans.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<doc>\n  <assembly>\n    <name>Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                92,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.zh-Hans.2.0.20710.0/lib/net40/zh-Hans/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "</name>\n  </assembly>\n  <members>\n    <member name=\"T:Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                77,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OAuthPluginBase.php",
+      "path": "include/externalAPI/Base/OAuthPluginBase.php",
+      "sha": "a743d960bb72e3953c928628d9d8b36265e5126d",
+      "url": "https://api.github.com/repositories/2374989/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=aaea1a5ccb7d0cf3c6e323d435b006d23c79f81c",
+      "git_url": "https://api.github.com/repositories/2374989/git/blobs/a743d960bb72e3953c928628d9d8b36265e5126d",
+      "html_url": "https://github.com/joshbhamilton/sugar/blob/aaea1a5ccb7d0cf3c6e323d435b006d23c79f81c/include/externalAPI/Base/OAuthPluginBase.php",
+      "repository": {
+        "id": 2374989,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMzc0OTg5",
+        "name": "sugar",
+        "full_name": "joshbhamilton/sugar",
+        "private": false,
+        "owner": {
+          "login": "joshbhamilton",
+          "id": 232370,
+          "node_id": "MDQ6VXNlcjIzMjM3MA==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/232370?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/joshbhamilton",
+          "html_url": "https://github.com/joshbhamilton",
+          "followers_url": "https://api.github.com/users/joshbhamilton/followers",
+          "following_url": "https://api.github.com/users/joshbhamilton/following{/other_user}",
+          "gists_url": "https://api.github.com/users/joshbhamilton/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/joshbhamilton/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/joshbhamilton/subscriptions",
+          "organizations_url": "https://api.github.com/users/joshbhamilton/orgs",
+          "repos_url": "https://api.github.com/users/joshbhamilton/repos",
+          "events_url": "https://api.github.com/users/joshbhamilton/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/joshbhamilton/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/joshbhamilton/sugar",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/joshbhamilton/sugar",
+        "forks_url": "https://api.github.com/repos/joshbhamilton/sugar/forks",
+        "keys_url": "https://api.github.com/repos/joshbhamilton/sugar/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/joshbhamilton/sugar/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/joshbhamilton/sugar/teams",
+        "hooks_url": "https://api.github.com/repos/joshbhamilton/sugar/hooks",
+        "issue_events_url": "https://api.github.com/repos/joshbhamilton/sugar/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/joshbhamilton/sugar/events",
+        "assignees_url": "https://api.github.com/repos/joshbhamilton/sugar/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/joshbhamilton/sugar/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/joshbhamilton/sugar/tags",
+        "blobs_url": "https://api.github.com/repos/joshbhamilton/sugar/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/joshbhamilton/sugar/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/joshbhamilton/sugar/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/joshbhamilton/sugar/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/joshbhamilton/sugar/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/joshbhamilton/sugar/languages",
+        "stargazers_url": "https://api.github.com/repos/joshbhamilton/sugar/stargazers",
+        "contributors_url": "https://api.github.com/repos/joshbhamilton/sugar/contributors",
+        "subscribers_url": "https://api.github.com/repos/joshbhamilton/sugar/subscribers",
+        "subscription_url": "https://api.github.com/repos/joshbhamilton/sugar/subscription",
+        "commits_url": "https://api.github.com/repos/joshbhamilton/sugar/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/joshbhamilton/sugar/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/joshbhamilton/sugar/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/joshbhamilton/sugar/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/joshbhamilton/sugar/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/joshbhamilton/sugar/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/joshbhamilton/sugar/merges",
+        "archive_url": "https://api.github.com/repos/joshbhamilton/sugar/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/joshbhamilton/sugar/downloads",
+        "issues_url": "https://api.github.com/repos/joshbhamilton/sugar/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/joshbhamilton/sugar/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/joshbhamilton/sugar/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/joshbhamilton/sugar/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/joshbhamilton/sugar/labels{/name}",
+        "releases_url": "https://api.github.com/repos/joshbhamilton/sugar/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/joshbhamilton/sugar/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/2374989/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=aaea1a5ccb7d0cf3c6e323d435b006d23c79f81c",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " OAuthPluginBase extends ExternalAPIBase implements ExternalOAuthAPIPlugin {\n    public $authMethod = 'oauth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                1,
+                6
+              ]
+            },
+            {
+              "text": "OAuth",
+              "indices": [
+                60,
+                65
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                103,
+                108
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/2374989/contents/include/externalAPI/Base/OAuthPluginBase.php?ref=aaea1a5ccb7d0cf3c6e323d435b006d23c79f81c",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "';\n    protected $oauthParams = array();\n\n    public function __construct()\n    {\n        $connector",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                18,
+                23
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "config.xml",
+      "path": "app/code/core/Mage/Oauth/etc/config.xml",
+      "sha": "e85a546c8ee53c5187718d179fd7416fbe8b83f1",
+      "url": "https://api.github.com/repositories/8129475/contents/app/code/core/Mage/Oauth/etc/config.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+      "git_url": "https://api.github.com/repositories/8129475/git/blobs/e85a546c8ee53c5187718d179fd7416fbe8b83f1",
+      "html_url": "https://github.com/medinadato/mystore/blob/37170f2165f90c7beba52588c88d8d2ef2348c70/app/code/core/Mage/Oauth/etc/config.xml",
+      "repository": {
+        "id": 8129475,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4MTI5NDc1",
+        "name": "mystore",
+        "full_name": "medinadato/mystore",
+        "private": false,
+        "owner": {
+          "login": "medinadato",
+          "id": 922809,
+          "node_id": "MDQ6VXNlcjkyMjgwOQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/922809?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/medinadato",
+          "html_url": "https://github.com/medinadato",
+          "followers_url": "https://api.github.com/users/medinadato/followers",
+          "following_url": "https://api.github.com/users/medinadato/following{/other_user}",
+          "gists_url": "https://api.github.com/users/medinadato/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/medinadato/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/medinadato/subscriptions",
+          "organizations_url": "https://api.github.com/users/medinadato/orgs",
+          "repos_url": "https://api.github.com/users/medinadato/repos",
+          "events_url": "https://api.github.com/users/medinadato/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/medinadato/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/medinadato/mystore",
+        "description": "Project in Magento to create a ecommerce store.",
+        "fork": false,
+        "url": "https://api.github.com/repos/medinadato/mystore",
+        "forks_url": "https://api.github.com/repos/medinadato/mystore/forks",
+        "keys_url": "https://api.github.com/repos/medinadato/mystore/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/medinadato/mystore/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/medinadato/mystore/teams",
+        "hooks_url": "https://api.github.com/repos/medinadato/mystore/hooks",
+        "issue_events_url": "https://api.github.com/repos/medinadato/mystore/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/medinadato/mystore/events",
+        "assignees_url": "https://api.github.com/repos/medinadato/mystore/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/medinadato/mystore/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/medinadato/mystore/tags",
+        "blobs_url": "https://api.github.com/repos/medinadato/mystore/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/medinadato/mystore/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/medinadato/mystore/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/medinadato/mystore/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/medinadato/mystore/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/medinadato/mystore/languages",
+        "stargazers_url": "https://api.github.com/repos/medinadato/mystore/stargazers",
+        "contributors_url": "https://api.github.com/repos/medinadato/mystore/contributors",
+        "subscribers_url": "https://api.github.com/repos/medinadato/mystore/subscribers",
+        "subscription_url": "https://api.github.com/repos/medinadato/mystore/subscription",
+        "commits_url": "https://api.github.com/repos/medinadato/mystore/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/medinadato/mystore/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/medinadato/mystore/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/medinadato/mystore/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/medinadato/mystore/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/medinadato/mystore/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/medinadato/mystore/merges",
+        "archive_url": "https://api.github.com/repos/medinadato/mystore/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/medinadato/mystore/downloads",
+        "issues_url": "https://api.github.com/repos/medinadato/mystore/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/medinadato/mystore/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/medinadato/mystore/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/medinadato/mystore/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/medinadato/mystore/labels{/name}",
+        "releases_url": "https://api.github.com/repos/medinadato/mystore/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/medinadato/mystore/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/code/core/Mage/Oauth/etc/config.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "     Mage_Oauth\n * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                10,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/code/core/Mage/Oauth/etc/config.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ">\n    <modules>\n        <Mage_Oauth>\n            <version>1.0.0.0</version>\n        </Mage_Oauth",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                30,
+                35
+              ]
+            },
+            {
+              "text": "Oauth",
+              "indices": [
+                91,
+                96
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth_common_providerui.module",
+      "path": "profiles/commerce_kickstart/modules/contrib/oauth/oauth_common_providerui.module",
+      "sha": "fd0e6da8fdd3932e7066f4e3fd23ab1703142e3d",
+      "url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common_providerui.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+      "git_url": "https://api.github.com/repositories/34603647/git/blobs/fd0e6da8fdd3932e7066f4e3fd23ab1703142e3d",
+      "html_url": "https://github.com/Sebi08/Online-Bookstore/blob/e39496acdecba59baa5aacbb71e605d5f2bcf1f9/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common_providerui.module",
+      "repository": {
+        "id": 34603647,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzNDYwMzY0Nw==",
+        "name": "Online-Bookstore",
+        "full_name": "Sebi08/Online-Bookstore",
+        "private": false,
+        "owner": {
+          "login": "Sebi08",
+          "id": 12120639,
+          "node_id": "MDQ6VXNlcjEyMTIwNjM5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/12120639?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Sebi08",
+          "html_url": "https://github.com/Sebi08",
+          "followers_url": "https://api.github.com/users/Sebi08/followers",
+          "following_url": "https://api.github.com/users/Sebi08/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Sebi08/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Sebi08/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Sebi08/subscriptions",
+          "organizations_url": "https://api.github.com/users/Sebi08/orgs",
+          "repos_url": "https://api.github.com/users/Sebi08/repos",
+          "events_url": "https://api.github.com/users/Sebi08/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Sebi08/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/Sebi08/Online-Bookstore",
+        "description": "Online place for shopping books ",
+        "fork": false,
+        "url": "https://api.github.com/repos/Sebi08/Online-Bookstore",
+        "forks_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/forks",
+        "keys_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/teams",
+        "hooks_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/hooks",
+        "issue_events_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/events",
+        "assignees_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/tags",
+        "blobs_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/languages",
+        "stargazers_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/stargazers",
+        "contributors_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/contributors",
+        "subscribers_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/subscribers",
+        "subscription_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/subscription",
+        "commits_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/merges",
+        "archive_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/downloads",
+        "issues_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/labels{/name}",
+        "releases_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common_providerui.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "<?php\n/**\n * OAuth Common Provider UI module\n */\n\n/**\n * Implements hook_menu().\n */\nfunction",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                13,
+                18
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common_providerui.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " oauth_common_providerui_menu() {\n  $menu = array();\n  $admin_base = array(\n    'access arguments",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                1,
+                6
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth.withings.js",
+      "path": "www/lib/ng-cordova-oauth/src/oauth.withings.js",
+      "sha": "56a7c48ae4d29203e861898b03d85116458a634d",
+      "url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/src/oauth.withings.js?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+      "git_url": "https://api.github.com/repositories/53608097/git/blobs/56a7c48ae4d29203e861898b03d85116458a634d",
+      "html_url": "https://github.com/guscanales/CalculoCalificaciones/blob/30721ccbee9a24c964296323aef04e5120d7f9f6/www/lib/ng-cordova-oauth/src/oauth.withings.js",
+      "repository": {
+        "id": 53608097,
+        "node_id": "MDEwOlJlcG9zaXRvcnk1MzYwODA5Nw==",
+        "name": "CalculoCalificaciones",
+        "full_name": "guscanales/CalculoCalificaciones",
+        "private": false,
+        "owner": {
+          "login": "guscanales",
+          "id": 10030533,
+          "node_id": "MDQ6VXNlcjEwMDMwNTMz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/10030533?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/guscanales",
+          "html_url": "https://github.com/guscanales",
+          "followers_url": "https://api.github.com/users/guscanales/followers",
+          "following_url": "https://api.github.com/users/guscanales/following{/other_user}",
+          "gists_url": "https://api.github.com/users/guscanales/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/guscanales/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/guscanales/subscriptions",
+          "organizations_url": "https://api.github.com/users/guscanales/orgs",
+          "repos_url": "https://api.github.com/users/guscanales/repos",
+          "events_url": "https://api.github.com/users/guscanales/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/guscanales/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/guscanales/CalculoCalificaciones",
+        "description": "Ionic App - Angular - NodeJS",
+        "fork": false,
+        "url": "https://api.github.com/repos/guscanales/CalculoCalificaciones",
+        "forks_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/forks",
+        "keys_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/collaborators{/collaborator}",
