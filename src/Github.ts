@@ -19,14 +19,25 @@ import { RequestError } from '@octokit/request-error';
 import ErrorCodeConnectorError from './ErrorCodeConnectorError';
 import ErrorCode from './ErrorCode';
 
+type Fetch = (input: RequestInfo, init?: RequestInit) => Promise<Response>;
+
 export default class Github extends Connector implements IOAuth2, ISearch {
   static DEFAULT_ORIGIN: string | null = 'https://github.com';
   private static AUTHORIZATION_REQUEST_PATH = '/login/oauth/authorize';
   private readonly clientSecret?: string;
+  private readonly fetch?: Fetch;
 
-  constructor(origin: string | null = Github.DEFAULT_ORIGIN, clientSecret?: string) {
+  // Injecting fetch function was the easiest way to test octokit.
+  // This approach https://codeutility.org/jest-mocking-of-octokit-library/ didn't work
+  // because we need to mock only request and leave other methods as is.
+  // Using spyOn, something like jest.spyOn(Octokit.prototype, 'request') saying, there is no prototype.
+  // Haven't found quickly what to spy on.
+  // octokit/core uses the injection approach in here
+  // https://github.com/octokit/core.js/blob/b753efbf2514991f89503ac2d1fa1f73a7ae284e/test/request.test.ts
+  constructor(origin: string | null = Github.DEFAULT_ORIGIN, clientSecret?: string, fetch?: Fetch) {
     super(origin);
     this.clientSecret = clientSecret;
+    this.fetch = fetch;
   }
 
   private static buildSearchResult(codeSearchResultItem: components['schemas']['code-search-result-item']): SearchResult {
@@ -125,6 +136,9 @@ export default class Github extends Connector implements IOAuth2, ISearch {
           // To return text matches
           // See https://docs.github.com/en/rest/reference/search#text-match-metadata
           accept: 'application/vnd.github.v3.text-match+json',
+        },
+        request: {
+          fetch: this.fetch,
         },
       },
     });
