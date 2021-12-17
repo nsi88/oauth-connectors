@@ -955,3 +955,2432 @@
         "forks_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/forks",
         "keys_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/keys{/key_id}",
         "collaborators_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/teams",
+        "hooks_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/hooks",
+        "issue_events_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/events",
+        "assignees_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/tags",
+        "blobs_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/languages",
+        "stargazers_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/stargazers",
+        "contributors_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/contributors",
+        "subscribers_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/subscribers",
+        "subscription_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/subscription",
+        "commits_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/merges",
+        "archive_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/downloads",
+        "issues_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/labels{/name}",
+        "releases_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/src/oauth.withings.js?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "(function() {\n  'use strict';\n\n  angular.module('oauth.withings', ['oauth.utils'])\n    .factory",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                49,
+                54
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                68,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/src/oauth.withings.js?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "('$ngCordovaWithings', withings);\n\n  function withings($q, $http, $cordovaOauthUtility) {\n    return",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                74,
+                79
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Web.WebPages.OAuth.xml",
+      "path": "packages/Microsoft.AspNet.WebPages.OAuth.2.0.30506.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml",
+      "sha": "babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "url": "https://api.github.com/repositories/112093288/contents/packages/Microsoft.AspNet.WebPages.OAuth.2.0.30506.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=5d2160852b280425afc1966e10789b2fbc17ae2a",
+      "git_url": "https://api.github.com/repositories/112093288/git/blobs/babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "html_url": "https://github.com/elieayoub/Minamotor/blob/5d2160852b280425afc1966e10789b2fbc17ae2a/packages/Microsoft.AspNet.WebPages.OAuth.2.0.30506.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml",
+      "repository": {
+        "id": 112093288,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxMTIwOTMyODg=",
+        "name": "Minamotor",
+        "full_name": "elieayoub/Minamotor",
+        "private": false,
+        "owner": {
+          "login": "elieayoub",
+          "id": 23297923,
+          "node_id": "MDQ6VXNlcjIzMjk3OTIz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/23297923?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/elieayoub",
+          "html_url": "https://github.com/elieayoub",
+          "followers_url": "https://api.github.com/users/elieayoub/followers",
+          "following_url": "https://api.github.com/users/elieayoub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/elieayoub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/elieayoub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/elieayoub/subscriptions",
+          "organizations_url": "https://api.github.com/users/elieayoub/orgs",
+          "repos_url": "https://api.github.com/users/elieayoub/repos",
+          "events_url": "https://api.github.com/users/elieayoub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/elieayoub/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/elieayoub/Minamotor",
+        "description": "This is a website which I created that has a back end section in which you can create new Cars, Cars Photo Galleries, Users, etc...",
+        "fork": false,
+        "url": "https://api.github.com/repos/elieayoub/Minamotor",
+        "forks_url": "https://api.github.com/repos/elieayoub/Minamotor/forks",
+        "keys_url": "https://api.github.com/repos/elieayoub/Minamotor/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/elieayoub/Minamotor/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/elieayoub/Minamotor/teams",
+        "hooks_url": "https://api.github.com/repos/elieayoub/Minamotor/hooks",
+        "issue_events_url": "https://api.github.com/repos/elieayoub/Minamotor/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/elieayoub/Minamotor/events",
+        "assignees_url": "https://api.github.com/repos/elieayoub/Minamotor/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/elieayoub/Minamotor/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/elieayoub/Minamotor/tags",
+        "blobs_url": "https://api.github.com/repos/elieayoub/Minamotor/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/elieayoub/Minamotor/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/elieayoub/Minamotor/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/elieayoub/Minamotor/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/elieayoub/Minamotor/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/elieayoub/Minamotor/languages",
+        "stargazers_url": "https://api.github.com/repos/elieayoub/Minamotor/stargazers",
+        "contributors_url": "https://api.github.com/repos/elieayoub/Minamotor/contributors",
+        "subscribers_url": "https://api.github.com/repos/elieayoub/Minamotor/subscribers",
+        "subscription_url": "https://api.github.com/repos/elieayoub/Minamotor/subscription",
+        "commits_url": "https://api.github.com/repos/elieayoub/Minamotor/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/elieayoub/Minamotor/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/elieayoub/Minamotor/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/elieayoub/Minamotor/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/elieayoub/Minamotor/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/elieayoub/Minamotor/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/elieayoub/Minamotor/merges",
+        "archive_url": "https://api.github.com/repos/elieayoub/Minamotor/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/elieayoub/Minamotor/downloads",
+        "issues_url": "https://api.github.com/repos/elieayoub/Minamotor/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/elieayoub/Minamotor/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/elieayoub/Minamotor/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/elieayoub/Minamotor/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/elieayoub/Minamotor/labels{/name}",
+        "releases_url": "https://api.github.com/repos/elieayoub/Minamotor/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/elieayoub/Minamotor/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/112093288/contents/packages/Microsoft.AspNet.WebPages.OAuth.2.0.30506.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=5d2160852b280425afc1966e10789b2fbc17ae2a",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<doc>\n  <assembly>\n    <name>Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                92,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/112093288/contents/packages/Microsoft.AspNet.WebPages.OAuth.2.0.30506.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=5d2160852b280425afc1966e10789b2fbc17ae2a",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "</name>\n  </assembly>\n  <members>\n    <member name=\"T:Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                77,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Web.WebPages.OAuth.xml",
+      "path": "ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml",
+      "sha": "babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "url": "https://api.github.com/repositories/139331208/contents/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+      "git_url": "https://api.github.com/repositories/139331208/git/blobs/babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong/blob/e0952156173bfe80ec3111ba610f3ecb1c362bbd/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml",
+      "repository": {
+        "id": 139331208,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxMzkzMzEyMDg=",
+        "name": "ASP.NET-TuShuGuanLiXiTong",
+        "full_name": "liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "private": false,
+        "owner": {
+          "login": "liang1075963999",
+          "id": 25702745,
+          "node_id": "MDQ6VXNlcjI1NzAyNzQ1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/25702745?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/liang1075963999",
+          "html_url": "https://github.com/liang1075963999",
+          "followers_url": "https://api.github.com/users/liang1075963999/followers",
+          "following_url": "https://api.github.com/users/liang1075963999/following{/other_user}",
+          "gists_url": "https://api.github.com/users/liang1075963999/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/liang1075963999/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/liang1075963999/subscriptions",
+          "organizations_url": "https://api.github.com/users/liang1075963999/orgs",
+          "repos_url": "https://api.github.com/users/liang1075963999/repos",
+          "events_url": "https://api.github.com/users/liang1075963999/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/liang1075963999/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "description": "ASP.NET图书管理系统",
+        "fork": false,
+        "url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "forks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/forks",
+        "keys_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/teams",
+        "hooks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/hooks",
+        "issue_events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/events",
+        "assignees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/tags",
+        "blobs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/languages",
+        "stargazers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/stargazers",
+        "contributors_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contributors",
+        "subscribers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscribers",
+        "subscription_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscription",
+        "commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/merges",
+        "archive_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/downloads",
+        "issues_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/labels{/name}",
+        "releases_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<doc>\n  <assembly>\n    <name>Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                92,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/packages/Microsoft.AspNet.WebPages.OAuth.2.0.20710.0/lib/net40/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "</name>\n  </assembly>\n  <members>\n    <member name=\"T:Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                77,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft.Web.WebPages.OAuth.xml",
+      "path": "ASP.NET图书管理系统/tushuguanli/tushuguanli/susheguanli/bin/Microsoft.Web.WebPages.OAuth.xml",
+      "sha": "babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "url": "https://api.github.com/repositories/139331208/contents/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/susheguanli/bin/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+      "git_url": "https://api.github.com/repositories/139331208/git/blobs/babfc6b8bbe8a88cd1060de2d80d78ef78eb8dee",
+      "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong/blob/e0952156173bfe80ec3111ba610f3ecb1c362bbd/ASP.NET%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/tushuguanli/tushuguanli/susheguanli/bin/Microsoft.Web.WebPages.OAuth.xml",
+      "repository": {
+        "id": 139331208,
+        "node_id": "MDEwOlJlcG9zaXRvcnkxMzkzMzEyMDg=",
+        "name": "ASP.NET-TuShuGuanLiXiTong",
+        "full_name": "liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "private": false,
+        "owner": {
+          "login": "liang1075963999",
+          "id": 25702745,
+          "node_id": "MDQ6VXNlcjI1NzAyNzQ1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/25702745?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/liang1075963999",
+          "html_url": "https://github.com/liang1075963999",
+          "followers_url": "https://api.github.com/users/liang1075963999/followers",
+          "following_url": "https://api.github.com/users/liang1075963999/following{/other_user}",
+          "gists_url": "https://api.github.com/users/liang1075963999/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/liang1075963999/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/liang1075963999/subscriptions",
+          "organizations_url": "https://api.github.com/users/liang1075963999/orgs",
+          "repos_url": "https://api.github.com/users/liang1075963999/repos",
+          "events_url": "https://api.github.com/users/liang1075963999/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/liang1075963999/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "description": "ASP.NET图书管理系统",
+        "fork": false,
+        "url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong",
+        "forks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/forks",
+        "keys_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/teams",
+        "hooks_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/hooks",
+        "issue_events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/events",
+        "assignees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/tags",
+        "blobs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/languages",
+        "stargazers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/stargazers",
+        "contributors_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contributors",
+        "subscribers_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscribers",
+        "subscription_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/subscription",
+        "commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/merges",
+        "archive_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/downloads",
+        "issues_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/labels{/name}",
+        "releases_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/liang1075963999/ASP.NET-TuShuGuanLiXiTong/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/susheguanli/bin/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<doc>\n  <assembly>\n    <name>Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                92,
+                97
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/139331208/contents/ASP.NET图书管理系统/tushuguanli/tushuguanli/susheguanli/bin/Microsoft.Web.WebPages.OAuth.xml?ref=e0952156173bfe80ec3111ba610f3ecb1c362bbd",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "</name>\n  </assembly>\n  <members>\n    <member name=\"T:Microsoft.Web.WebPages.OAuth",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                77,
+                82
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth_1_spec.rb",
+      "path": "vendor/bundle/gems/signet-0.12.0/spec/signet/oauth_1_spec.rb",
+      "sha": "8b3b8e7de7702e48305a79066a61547017534a99",
+      "url": "https://api.github.com/repositories/227131570/contents/vendor/bundle/gems/signet-0.12.0/spec/signet/oauth_1_spec.rb?ref=38dd01023a2ee40dd8aeecdd6886178c9740f412",
+      "git_url": "https://api.github.com/repositories/227131570/git/blobs/8b3b8e7de7702e48305a79066a61547017534a99",
+      "html_url": "https://github.com/maccam04/attendance/blob/38dd01023a2ee40dd8aeecdd6886178c9740f412/vendor/bundle/gems/signet-0.12.0/spec/signet/oauth_1_spec.rb",
+      "repository": {
+        "id": 227131570,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMjcxMzE1NzA=",
+        "name": "attendance",
+        "full_name": "maccam04/attendance",
+        "private": false,
+        "owner": {
+          "login": "maccam04",
+          "id": 13067363,
+          "node_id": "MDQ6VXNlcjEzMDY3MzYz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/13067363?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/maccam04",
+          "html_url": "https://github.com/maccam04",
+          "followers_url": "https://api.github.com/users/maccam04/followers",
+          "following_url": "https://api.github.com/users/maccam04/following{/other_user}",
+          "gists_url": "https://api.github.com/users/maccam04/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/maccam04/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/maccam04/subscriptions",
+          "organizations_url": "https://api.github.com/users/maccam04/orgs",
+          "repos_url": "https://api.github.com/users/maccam04/repos",
+          "events_url": "https://api.github.com/users/maccam04/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/maccam04/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/maccam04/attendance",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/maccam04/attendance",
+        "forks_url": "https://api.github.com/repos/maccam04/attendance/forks",
+        "keys_url": "https://api.github.com/repos/maccam04/attendance/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/maccam04/attendance/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/maccam04/attendance/teams",
+        "hooks_url": "https://api.github.com/repos/maccam04/attendance/hooks",
+        "issue_events_url": "https://api.github.com/repos/maccam04/attendance/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/maccam04/attendance/events",
+        "assignees_url": "https://api.github.com/repos/maccam04/attendance/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/maccam04/attendance/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/maccam04/attendance/tags",
+        "blobs_url": "https://api.github.com/repos/maccam04/attendance/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/maccam04/attendance/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/maccam04/attendance/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/maccam04/attendance/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/maccam04/attendance/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/maccam04/attendance/languages",
+        "stargazers_url": "https://api.github.com/repos/maccam04/attendance/stargazers",
+        "contributors_url": "https://api.github.com/repos/maccam04/attendance/contributors",
+        "subscribers_url": "https://api.github.com/repos/maccam04/attendance/subscribers",
+        "subscription_url": "https://api.github.com/repos/maccam04/attendance/subscription",
+        "commits_url": "https://api.github.com/repos/maccam04/attendance/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/maccam04/attendance/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/maccam04/attendance/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/maccam04/attendance/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/maccam04/attendance/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/maccam04/attendance/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/maccam04/attendance/merges",
+        "archive_url": "https://api.github.com/repos/maccam04/attendance/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/maccam04/attendance/downloads",
+        "issues_url": "https://api.github.com/repos/maccam04/attendance/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/maccam04/attendance/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/maccam04/attendance/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/maccam04/attendance/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/maccam04/attendance/labels{/name}",
+        "releases_url": "https://api.github.com/repos/maccam04/attendance/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/maccam04/attendance/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/227131570/contents/vendor/bundle/gems/signet-0.12.0/spec/signet/oauth_1_spec.rb?ref=38dd01023a2ee40dd8aeecdd6886178c9740f412",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " License.\nrequire \"spec_helper\"\nrequire \"signet/oauth_1\"\nrequire \"signet/oauth_1/client\"\nrequire",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                48,
+                53
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                73,
+                78
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/227131570/contents/vendor/bundle/gems/signet-0.12.0/spec/signet/oauth_1_spec.rb?ref=38dd01023a2ee40dd8aeecdd6886178c9740f412",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " \"signet/oauth_1/credential\"\n\ndescribe Signet::OAuth1 do\n  it \"should correctly normalize parameters\" do",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                9,
+                14
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth_common.module",
+      "path": "profiles/commerce_kickstart/modules/contrib/oauth/oauth_common.module",
+      "sha": "9c7ea6653a3dbaf592f3ddb80afa238cfa5a8569",
+      "url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+      "git_url": "https://api.github.com/repositories/34603647/git/blobs/9c7ea6653a3dbaf592f3ddb80afa238cfa5a8569",
+      "html_url": "https://github.com/Sebi08/Online-Bookstore/blob/e39496acdecba59baa5aacbb71e605d5f2bcf1f9/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common.module",
+      "repository": {
+        "id": 34603647,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzNDYwMzY0Nw==",
+        "name": "Online-Bookstore",
+        "full_name": "Sebi08/Online-Bookstore",
+        "private": false,
+        "owner": {
+          "login": "Sebi08",
+          "id": 12120639,
+          "node_id": "MDQ6VXNlcjEyMTIwNjM5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/12120639?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Sebi08",
+          "html_url": "https://github.com/Sebi08",
+          "followers_url": "https://api.github.com/users/Sebi08/followers",
+          "following_url": "https://api.github.com/users/Sebi08/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Sebi08/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Sebi08/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Sebi08/subscriptions",
+          "organizations_url": "https://api.github.com/users/Sebi08/orgs",
+          "repos_url": "https://api.github.com/users/Sebi08/repos",
+          "events_url": "https://api.github.com/users/Sebi08/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Sebi08/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/Sebi08/Online-Bookstore",
+        "description": "Online place for shopping books ",
+        "fork": false,
+        "url": "https://api.github.com/repos/Sebi08/Online-Bookstore",
+        "forks_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/forks",
+        "keys_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/teams",
+        "hooks_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/hooks",
+        "issue_events_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/events",
+        "assignees_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/tags",
+        "blobs_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/languages",
+        "stargazers_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/stargazers",
+        "contributors_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/contributors",
+        "subscribers_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/subscribers",
+        "subscription_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/subscription",
+        "commits_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/merges",
+        "archive_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/downloads",
+        "issues_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/labels{/name}",
+        "releases_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/Sebi08/Online-Bookstore/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "<?php\n/**\n * file\n * OAuth module\n */\ndefine('OAUTH_COMMON_CODE_BRANCH', '7.x-3.x');\ndefine",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                21,
+                26
+              ]
+            },
+            {
+              "text": "OAUTH",
+              "indices": [
+                46,
+                51
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/34603647/contents/profiles/commerce_kickstart/modules/contrib/oauth/oauth_common.module?ref=e39496acdecba59baa5aacbb71e605d5f2bcf1f9",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "('OAUTH_COMMON_TOKEN_TYPE_REQUEST', 0);\ndefine('OAUTH_COMMON_TOKEN_TYPE_ACCESS', 1);\ndefine",
+          "matches": [
+            {
+              "text": "OAUTH",
+              "indices": [
+                2,
+                7
+              ]
+            },
+            {
+              "text": "OAUTH",
+              "indices": [
+                48,
+                53
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DefaultLoginService.java",
+      "path": "guns-base-support/guns-oauth2/src/main/java/cn/stylefeng/guns/oauth2/service/impl/DefaultLoginService.java",
+      "sha": "ca53ca805e48798639637e1ee6fe2a937bc1f215",
+      "url": "https://api.github.com/repositories/293557315/contents/guns-base-support/guns-oauth2/src/main/java/cn/stylefeng/guns/oauth2/service/impl/DefaultLoginService.java?ref=3dd3ba7de50492fa664c72234f1157d7b1f8646b",
+      "git_url": "https://api.github.com/repositories/293557315/git/blobs/ca53ca805e48798639637e1ee6fe2a937bc1f215",
+      "html_url": "https://github.com/kongxiang1234/guns/blob/3dd3ba7de50492fa664c72234f1157d7b1f8646b/guns-base-support/guns-oauth2/src/main/java/cn/stylefeng/guns/oauth2/service/impl/DefaultLoginService.java",
+      "repository": {
+        "id": 293557315,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyOTM1NTczMTU=",
+        "name": "guns",
+        "full_name": "kongxiang1234/guns",
+        "private": false,
+        "owner": {
+          "login": "kongxiang1234",
+          "id": 56909315,
+          "node_id": "MDQ6VXNlcjU2OTA5MzE1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/56909315?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kongxiang1234",
+          "html_url": "https://github.com/kongxiang1234",
+          "followers_url": "https://api.github.com/users/kongxiang1234/followers",
+          "following_url": "https://api.github.com/users/kongxiang1234/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kongxiang1234/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kongxiang1234/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kongxiang1234/subscriptions",
+          "organizations_url": "https://api.github.com/users/kongxiang1234/orgs",
+          "repos_url": "https://api.github.com/users/kongxiang1234/repos",
+          "events_url": "https://api.github.com/users/kongxiang1234/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kongxiang1234/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/kongxiang1234/guns",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/kongxiang1234/guns",
+        "forks_url": "https://api.github.com/repos/kongxiang1234/guns/forks",
+        "keys_url": "https://api.github.com/repos/kongxiang1234/guns/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/kongxiang1234/guns/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/kongxiang1234/guns/teams",
+        "hooks_url": "https://api.github.com/repos/kongxiang1234/guns/hooks",
+        "issue_events_url": "https://api.github.com/repos/kongxiang1234/guns/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/kongxiang1234/guns/events",
+        "assignees_url": "https://api.github.com/repos/kongxiang1234/guns/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/kongxiang1234/guns/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/kongxiang1234/guns/tags",
+        "blobs_url": "https://api.github.com/repos/kongxiang1234/guns/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/kongxiang1234/guns/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/kongxiang1234/guns/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/kongxiang1234/guns/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/kongxiang1234/guns/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/kongxiang1234/guns/languages",
+        "stargazers_url": "https://api.github.com/repos/kongxiang1234/guns/stargazers",
+        "contributors_url": "https://api.github.com/repos/kongxiang1234/guns/contributors",
+        "subscribers_url": "https://api.github.com/repos/kongxiang1234/guns/subscribers",
+        "subscription_url": "https://api.github.com/repos/kongxiang1234/guns/subscription",
+        "commits_url": "https://api.github.com/repos/kongxiang1234/guns/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/kongxiang1234/guns/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/kongxiang1234/guns/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/kongxiang1234/guns/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/kongxiang1234/guns/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/kongxiang1234/guns/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/kongxiang1234/guns/merges",
+        "archive_url": "https://api.github.com/repos/kongxiang1234/guns/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/kongxiang1234/guns/downloads",
+        "issues_url": "https://api.github.com/repos/kongxiang1234/guns/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/kongxiang1234/guns/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/kongxiang1234/guns/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/kongxiang1234/guns/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/kongxiang1234/guns/labels{/name}",
+        "releases_url": "https://api.github.com/repos/kongxiang1234/guns/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/kongxiang1234/guns/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/293557315/contents/guns-base-support/guns-oauth2/src/main/java/cn/stylefeng/guns/oauth2/service/impl/DefaultLoginService.java?ref=3dd3ba7de50492fa664c72234f1157d7b1f8646b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".AuthService;\nimport cn.stylefeng.guns.base.oauth2.service.OauthUserInfoService;\nimport cn.stylefeng.guns",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                59,
+                64
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/293557315/contents/guns-base-support/guns-oauth2/src/main/java/cn/stylefeng/guns/oauth2/service/impl/DefaultLoginService.java?ref=3dd3ba7de50492fa664c72234f1157d7b1f8646b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".oauth2.service.LoginService;\nimport cn.stylefeng.guns.sys.core.exception.oauth.OAuth",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                74,
+                79
+              ]
+            },
+            {
+              "text": "OAuth",
+              "indices": [
+                80,
+                85
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oauth.php",
+      "path": "vendor/magento/framework/Oauth/Oauth.php",
+      "sha": "919b0e4c86ba0bd259955c8407c268043a3ad497",
+      "url": "https://api.github.com/repositories/247653425/contents/vendor/magento/framework/Oauth/Oauth.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+      "git_url": "https://api.github.com/repositories/247653425/git/blobs/919b0e4c86ba0bd259955c8407c268043a3ad497",
+      "html_url": "https://github.com/Arsalanulhaq/Magento-2.3.4/blob/11b930877d46a35b5de69387e078cbd77416bccc/vendor/magento/framework/Oauth/Oauth.php",
+      "repository": {
+        "id": 247653425,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyNDc2NTM0MjU=",
+        "name": "Magento-2.3.4",
+        "full_name": "Arsalanulhaq/Magento-2.3.4",
+        "private": false,
+        "owner": {
+          "login": "Arsalanulhaq",
+          "id": 26971013,
+          "node_id": "MDQ6VXNlcjI2OTcxMDEz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/26971013?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Arsalanulhaq",
+          "html_url": "https://github.com/Arsalanulhaq",
+          "followers_url": "https://api.github.com/users/Arsalanulhaq/followers",
+          "following_url": "https://api.github.com/users/Arsalanulhaq/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Arsalanulhaq/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Arsalanulhaq/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Arsalanulhaq/subscriptions",
+          "organizations_url": "https://api.github.com/users/Arsalanulhaq/orgs",
+          "repos_url": "https://api.github.com/users/Arsalanulhaq/repos",
+          "events_url": "https://api.github.com/users/Arsalanulhaq/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Arsalanulhaq/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/Arsalanulhaq/Magento-2.3.4",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4",
+        "forks_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/forks",
+        "keys_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/teams",
+        "hooks_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/hooks",
+        "issue_events_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/events",
+        "assignees_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/tags",
+        "blobs_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/languages",
+        "stargazers_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/stargazers",
+        "contributors_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/contributors",
+        "subscribers_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/subscribers",
+        "subscription_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/subscription",
+        "commits_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/merges",
+        "archive_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/downloads",
+        "issues_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/labels{/name}",
+        "releases_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/Arsalanulhaq/Magento-2.3.4/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/247653425/contents/vendor/magento/framework/Oauth/Oauth.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".\n */\n\nnamespace Magento\\Framework\\Oauth;\n\nuse Magento\\Framework\\Encryption\\Helper\\Security;\nuse",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                35,
+                40
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/247653425/contents/vendor/magento/framework/Oauth/Oauth.php?ref=11b930877d46a35b5de69387e078cbd77416bccc",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " Magento\\Framework\\Phrase;\n\n/**\n * Authorization service.\n */\nclass Oauth implements Oauth",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                68,
+                73
+              ]
+            },
+            {
+              "text": "Oauth",
+              "indices": [
+                85,
+                90
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth.xml",
+      "path": "app/design/adminhtml/default/default/layout/oauth.xml",
+      "sha": "efd53a346ccbe36f3f005e7d53b8da95d8fab01a",
+      "url": "https://api.github.com/repositories/8129475/contents/app/design/adminhtml/default/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+      "git_url": "https://api.github.com/repositories/8129475/git/blobs/efd53a346ccbe36f3f005e7d53b8da95d8fab01a",
+      "html_url": "https://github.com/medinadato/mystore/blob/37170f2165f90c7beba52588c88d8d2ef2348c70/app/design/adminhtml/default/default/layout/oauth.xml",
+      "repository": {
+        "id": 8129475,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4MTI5NDc1",
+        "name": "mystore",
+        "full_name": "medinadato/mystore",
+        "private": false,
+        "owner": {
+          "login": "medinadato",
+          "id": 922809,
+          "node_id": "MDQ6VXNlcjkyMjgwOQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/922809?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/medinadato",
+          "html_url": "https://github.com/medinadato",
+          "followers_url": "https://api.github.com/users/medinadato/followers",
+          "following_url": "https://api.github.com/users/medinadato/following{/other_user}",
+          "gists_url": "https://api.github.com/users/medinadato/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/medinadato/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/medinadato/subscriptions",
+          "organizations_url": "https://api.github.com/users/medinadato/orgs",
+          "repos_url": "https://api.github.com/users/medinadato/repos",
+          "events_url": "https://api.github.com/users/medinadato/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/medinadato/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/medinadato/mystore",
+        "description": "Project in Magento to create a ecommerce store.",
+        "fork": false,
+        "url": "https://api.github.com/repos/medinadato/mystore",
+        "forks_url": "https://api.github.com/repos/medinadato/mystore/forks",
+        "keys_url": "https://api.github.com/repos/medinadato/mystore/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/medinadato/mystore/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/medinadato/mystore/teams",
+        "hooks_url": "https://api.github.com/repos/medinadato/mystore/hooks",
+        "issue_events_url": "https://api.github.com/repos/medinadato/mystore/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/medinadato/mystore/events",
+        "assignees_url": "https://api.github.com/repos/medinadato/mystore/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/medinadato/mystore/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/medinadato/mystore/tags",
+        "blobs_url": "https://api.github.com/repos/medinadato/mystore/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/medinadato/mystore/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/medinadato/mystore/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/medinadato/mystore/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/medinadato/mystore/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/medinadato/mystore/languages",
+        "stargazers_url": "https://api.github.com/repos/medinadato/mystore/stargazers",
+        "contributors_url": "https://api.github.com/repos/medinadato/mystore/contributors",
+        "subscribers_url": "https://api.github.com/repos/medinadato/mystore/subscribers",
+        "subscription_url": "https://api.github.com/repos/medinadato/mystore/subscription",
+        "commits_url": "https://api.github.com/repos/medinadato/mystore/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/medinadato/mystore/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/medinadato/mystore/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/medinadato/mystore/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/medinadato/mystore/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/medinadato/mystore/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/medinadato/mystore/merges",
+        "archive_url": "https://api.github.com/repos/medinadato/mystore/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/medinadato/mystore/downloads",
+        "issues_url": "https://api.github.com/repos/medinadato/mystore/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/medinadato/mystore/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/medinadato/mystore/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/medinadato/mystore/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/medinadato/mystore/labels{/name}",
+        "releases_url": "https://api.github.com/repos/medinadato/mystore/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/medinadato/mystore/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/design/adminhtml/default/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ">\n<layout>\n    <!-- Consumers -->\n    <adminhtml_oauth_consumer_index>\n        <reference name=\"content",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                49,
+                54
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/design/adminhtml/default/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "\">\n            <block type=\"oauth/adminhtml_oauth_consumer\" name=\"oauth",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                28,
+                33
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                44,
+                49
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                66,
+                71
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "data_test.py",
+      "path": "tests/gdata_tests/oauth/data_test.py",
+      "sha": "683b39fb0aa74d164c6afd582609dd90acf9aa6e",
+      "url": "https://api.github.com/repositories/32681444/contents/tests/gdata_tests/oauth/data_test.py?ref=eb6826ba1e6046a202158d4fefa672150efa0ca5",
+      "git_url": "https://api.github.com/repositories/32681444/git/blobs/683b39fb0aa74d164c6afd582609dd90acf9aa6e",
+      "html_url": "https://github.com/dorosh/gdata-python-client/blob/eb6826ba1e6046a202158d4fefa672150efa0ca5/tests/gdata_tests/oauth/data_test.py",
+      "repository": {
+        "id": 32681444,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzMjY4MTQ0NA==",
+        "name": "gdata-python-client",
+        "full_name": "dorosh/gdata-python-client",
+        "private": false,
+        "owner": {
+          "login": "dorosh",
+          "id": 350621,
+          "node_id": "MDQ6VXNlcjM1MDYyMQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/350621?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dorosh",
+          "html_url": "https://github.com/dorosh",
+          "followers_url": "https://api.github.com/users/dorosh/followers",
+          "following_url": "https://api.github.com/users/dorosh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dorosh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dorosh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dorosh/subscriptions",
+          "organizations_url": "https://api.github.com/users/dorosh/orgs",
+          "repos_url": "https://api.github.com/users/dorosh/repos",
+          "events_url": "https://api.github.com/users/dorosh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dorosh/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/dorosh/gdata-python-client",
+        "description": "Automatically exported from code.google.com/p/gdata-python-client",
+        "fork": false,
+        "url": "https://api.github.com/repos/dorosh/gdata-python-client",
+        "forks_url": "https://api.github.com/repos/dorosh/gdata-python-client/forks",
+        "keys_url": "https://api.github.com/repos/dorosh/gdata-python-client/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/dorosh/gdata-python-client/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/dorosh/gdata-python-client/teams",
+        "hooks_url": "https://api.github.com/repos/dorosh/gdata-python-client/hooks",
+        "issue_events_url": "https://api.github.com/repos/dorosh/gdata-python-client/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/dorosh/gdata-python-client/events",
+        "assignees_url": "https://api.github.com/repos/dorosh/gdata-python-client/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/dorosh/gdata-python-client/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/dorosh/gdata-python-client/tags",
+        "blobs_url": "https://api.github.com/repos/dorosh/gdata-python-client/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/dorosh/gdata-python-client/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/dorosh/gdata-python-client/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/dorosh/gdata-python-client/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/dorosh/gdata-python-client/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/dorosh/gdata-python-client/languages",
+        "stargazers_url": "https://api.github.com/repos/dorosh/gdata-python-client/stargazers",
+        "contributors_url": "https://api.github.com/repos/dorosh/gdata-python-client/contributors",
+        "subscribers_url": "https://api.github.com/repos/dorosh/gdata-python-client/subscribers",
+        "subscription_url": "https://api.github.com/repos/dorosh/gdata-python-client/subscription",
+        "commits_url": "https://api.github.com/repos/dorosh/gdata-python-client/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/dorosh/gdata-python-client/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/dorosh/gdata-python-client/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/dorosh/gdata-python-client/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/dorosh/gdata-python-client/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/dorosh/gdata-python-client/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/dorosh/gdata-python-client/merges",
+        "archive_url": "https://api.github.com/repos/dorosh/gdata-python-client/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/dorosh/gdata-python-client/downloads",
+        "issues_url": "https://api.github.com/repos/dorosh/gdata-python-client/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/dorosh/gdata-python-client/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/dorosh/gdata-python-client/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/dorosh/gdata-python-client/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/dorosh/gdata-python-client/labels{/name}",
+        "releases_url": "https://api.github.com/repos/dorosh/gdata-python-client/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/dorosh/gdata-python-client/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/32681444/contents/tests/gdata_tests/oauth/data_test.py?ref=eb6826ba1e6046a202158d4fefa672150efa0ca5",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ")'\n\nimport unittest\nfrom gdata import oauth, test_config\n\nHTTP_METHOD_POST = 'POST'\nVERSION",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                38,
+                43
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/32681444/contents/tests/gdata_tests/oauth/data_test.py?ref=eb6826ba1e6046a202158d4fefa672150efa0ca5",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " = '1.0'\n\n\nclass OauthUtilsTest(unittest.TestCase):\n  def test_build_authenticate_header(self):\n    self",
+          "matches": [
+            {
+              "text": "Oauth",
+              "indices": [
+                17,
+                22
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth.py",
+      "path": "piston/oauth.py",
+      "sha": "3a42e20f91ffeb6b4fd7eb60cc4cf20198e108e6",
+      "url": "https://api.github.com/repositories/2074663/contents/piston/oauth.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+      "git_url": "https://api.github.com/repositories/2074663/git/blobs/3a42e20f91ffeb6b4fd7eb60cc4cf20198e108e6",
+      "html_url": "https://github.com/django-piston/django-piston-fabian/blob/d595ae6109d97441063cbcc3c8c7bb027ffb788b/piston/oauth.py",
+      "repository": {
+        "id": 2074663,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDc0NjYz",
+        "name": "django-piston-fabian",
+        "full_name": "django-piston/django-piston-fabian",
+        "private": false,
+        "owner": {
+          "login": "django-piston",
+          "id": 626235,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjYyNjIzNQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/626235?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/django-piston",
+          "html_url": "https://github.com/django-piston",
+          "followers_url": "https://api.github.com/users/django-piston/followers",
+          "following_url": "https://api.github.com/users/django-piston/following{/other_user}",
+          "gists_url": "https://api.github.com/users/django-piston/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/django-piston/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/django-piston/subscriptions",
+          "organizations_url": "https://api.github.com/users/django-piston/orgs",
+          "repos_url": "https://api.github.com/users/django-piston/repos",
+          "events_url": "https://api.github.com/users/django-piston/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/django-piston/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/django-piston/django-piston-fabian",
+        "description": "Django Piston repo of Fabian Topfstedt which solve Bug #140",
+        "fork": false,
+        "url": "https://api.github.com/repos/django-piston/django-piston-fabian",
+        "forks_url": "https://api.github.com/repos/django-piston/django-piston-fabian/forks",
+        "keys_url": "https://api.github.com/repos/django-piston/django-piston-fabian/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/django-piston/django-piston-fabian/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/django-piston/django-piston-fabian/teams",
+        "hooks_url": "https://api.github.com/repos/django-piston/django-piston-fabian/hooks",
+        "issue_events_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/django-piston/django-piston-fabian/events",
+        "assignees_url": "https://api.github.com/repos/django-piston/django-piston-fabian/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/django-piston/django-piston-fabian/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/django-piston/django-piston-fabian/tags",
+        "blobs_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/django-piston/django-piston-fabian/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/django-piston/django-piston-fabian/languages",
+        "stargazers_url": "https://api.github.com/repos/django-piston/django-piston-fabian/stargazers",
+        "contributors_url": "https://api.github.com/repos/django-piston/django-piston-fabian/contributors",
+        "subscribers_url": "https://api.github.com/repos/django-piston/django-piston-fabian/subscribers",
+        "subscription_url": "https://api.github.com/repos/django-piston/django-piston-fabian/subscription",
+        "commits_url": "https://api.github.com/repos/django-piston/django-piston-fabian/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/django-piston/django-piston-fabian/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/django-piston/django-piston-fabian/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/django-piston/django-piston-fabian/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/django-piston/django-piston-fabian/merges",
+        "archive_url": "https://api.github.com/repos/django-piston/django-piston-fabian/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/django-piston/django-piston-fabian/downloads",
+        "issues_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/django-piston/django-piston-fabian/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/django-piston/django-piston-fabian/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/django-piston/django-piston-fabian/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/django-piston/django-piston-fabian/labels{/name}",
+        "releases_url": "https://api.github.com/repos/django-piston/django-piston-fabian/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/django-piston/django-piston-fabian/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/2074663/contents/piston/oauth.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " Blaine!\nHTTP_METHOD = 'GET'\nSIGNATURE_METHOD = 'PLAINTEXT'\n\n\nclass OAuthError(RuntimeError",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                68,
+                73
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/2074663/contents/piston/oauth.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "):\n    \"\"\"Generic exception class.\"\"\"\n    def __init__(self, message='OAuth error occured.'):\n        self",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                70,
+                75
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "auth_oauth.pot",
+      "path": "addons/auth_oauth/i18n/auth_oauth.pot",
+      "sha": "0f3c92566a916156fc45ceef24023a1e68beb0de",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/auth_oauth.pot?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/0f3c92566a916156fc45ceef24023a1e68beb0de",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/auth_oauth.pot",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/auth_oauth.pot?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n#\t* auth_oauth\n#\nmsgid \"\"\nmsgstr \"\"\n\"Project-Id-Version: Odoo Server 12.0\\n\"\n\"Report-Msgid-Bugs-To",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/auth_oauth.pot?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "\\n\"\n\"Content-Transfer-Encoding: \\n\"\n\"Plural-Forms: \\n\"\n\n#. module: auth_oauth\n#: model_terms:ir.ui.view",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                72,
+                77
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "th.po",
+      "path": "addons/auth_oauth/i18n/th.po",
+      "sha": "3d02d80cdd0a03d19700bebc2b4dc3a5231b4af3",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/th.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/3d02d80cdd0a03d19700bebc2b4dc3a5231b4af3",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/th.po",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/th.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n# * auth_oauth\n# \n# Translators:\n# Martin Trigaux, 2018\n# Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2018",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/th.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ": \\n\"\n\"Language: th\\n\"\n\"Plural-Forms: nplurals=1; plural=0;\\n\"\n\n#. module: auth_oauth\n#: model_terms:ir",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                80,
+                85
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "authentication.py",
+      "path": "piston/authentication.py",
+      "sha": "7d09707cb03efac1b673c818e4629296289bc31f",
+      "url": "https://api.github.com/repositories/2074663/contents/piston/authentication.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+      "git_url": "https://api.github.com/repositories/2074663/git/blobs/7d09707cb03efac1b673c818e4629296289bc31f",
+      "html_url": "https://github.com/django-piston/django-piston-fabian/blob/d595ae6109d97441063cbcc3c8c7bb027ffb788b/piston/authentication.py",
+      "repository": {
+        "id": 2074663,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDc0NjYz",
+        "name": "django-piston-fabian",
+        "full_name": "django-piston/django-piston-fabian",
+        "private": false,
+        "owner": {
+          "login": "django-piston",
+          "id": 626235,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjYyNjIzNQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/626235?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/django-piston",
+          "html_url": "https://github.com/django-piston",
+          "followers_url": "https://api.github.com/users/django-piston/followers",
+          "following_url": "https://api.github.com/users/django-piston/following{/other_user}",
+          "gists_url": "https://api.github.com/users/django-piston/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/django-piston/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/django-piston/subscriptions",
+          "organizations_url": "https://api.github.com/users/django-piston/orgs",
+          "repos_url": "https://api.github.com/users/django-piston/repos",
+          "events_url": "https://api.github.com/users/django-piston/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/django-piston/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/django-piston/django-piston-fabian",
+        "description": "Django Piston repo of Fabian Topfstedt which solve Bug #140",
+        "fork": false,
+        "url": "https://api.github.com/repos/django-piston/django-piston-fabian",
+        "forks_url": "https://api.github.com/repos/django-piston/django-piston-fabian/forks",
+        "keys_url": "https://api.github.com/repos/django-piston/django-piston-fabian/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/django-piston/django-piston-fabian/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/django-piston/django-piston-fabian/teams",
+        "hooks_url": "https://api.github.com/repos/django-piston/django-piston-fabian/hooks",
+        "issue_events_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/django-piston/django-piston-fabian/events",
+        "assignees_url": "https://api.github.com/repos/django-piston/django-piston-fabian/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/django-piston/django-piston-fabian/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/django-piston/django-piston-fabian/tags",
+        "blobs_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/django-piston/django-piston-fabian/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/django-piston/django-piston-fabian/languages",
+        "stargazers_url": "https://api.github.com/repos/django-piston/django-piston-fabian/stargazers",
+        "contributors_url": "https://api.github.com/repos/django-piston/django-piston-fabian/contributors",
+        "subscribers_url": "https://api.github.com/repos/django-piston/django-piston-fabian/subscribers",
+        "subscription_url": "https://api.github.com/repos/django-piston/django-piston-fabian/subscription",
+        "commits_url": "https://api.github.com/repos/django-piston/django-piston-fabian/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/django-piston/django-piston-fabian/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/django-piston/django-piston-fabian/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/django-piston/django-piston-fabian/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/django-piston/django-piston-fabian/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/django-piston/django-piston-fabian/merges",
+        "archive_url": "https://api.github.com/repos/django-piston/django-piston-fabian/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/django-piston/django-piston-fabian/downloads",
+        "issues_url": "https://api.github.com/repos/django-piston/django-piston-fabian/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/django-piston/django-piston-fabian/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/django-piston/django-piston-fabian/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/django-piston/django-piston-fabian/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/django-piston/django-piston-fabian/labels{/name}",
+        "releases_url": "https://api.github.com/repos/django-piston/django-piston-fabian/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/django-piston/django-piston-fabian/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/2074663/contents/piston/authentication.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "import binascii\n\nimport oauth\nfrom django.http import HttpResponse, HttpResponseRedirect\nfrom",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                24,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/2074663/contents/piston/authentication.py?ref=d595ae6109d97441063cbcc3c8c7bb027ffb788b",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " OAuth Consumers, Tokens, Nonces and Resources\n    '''\n    path = getattr(settings, 'OAUTH",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                1,
+                6
+              ]
+            },
+            {
+              "text": "OAUTH",
+              "indices": [
+                85,
+                90
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chrome_ex_oauth.js",
+      "path": "extension/chrome_ex_oauth.js",
+      "sha": "036820e818b9a87924c61b06913e291cdd375350",
+      "url": "https://api.github.com/repositories/32221591/contents/extension/chrome_ex_oauth.js?ref=055ebfca2dd4d7585e51fc176602e68ff1d732a8",
+      "git_url": "https://api.github.com/repositories/32221591/git/blobs/036820e818b9a87924c61b06913e291cdd375350",
+      "html_url": "https://github.com/pombreda/chrometophone/blob/055ebfca2dd4d7585e51fc176602e68ff1d732a8/extension/chrome_ex_oauth.js",
+      "repository": {
+        "id": 32221591,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzMjIyMTU5MQ==",
+        "name": "chrometophone",
+        "full_name": "pombreda/chrometophone",
+        "private": false,
+        "owner": {
+          "login": "pombreda",
+          "id": 8384917,
+          "node_id": "MDQ6VXNlcjgzODQ5MTc=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/8384917?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pombreda",
+          "html_url": "https://github.com/pombreda",
+          "followers_url": "https://api.github.com/users/pombreda/followers",
+          "following_url": "https://api.github.com/users/pombreda/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pombreda/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pombreda/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pombreda/subscriptions",
+          "organizations_url": "https://api.github.com/users/pombreda/orgs",
+          "repos_url": "https://api.github.com/users/pombreda/repos",
+          "events_url": "https://api.github.com/users/pombreda/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pombreda/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/pombreda/chrometophone",
+        "description": "Automatically exported from code.google.com/p/chrometophone",
+        "fork": false,
+        "url": "https://api.github.com/repos/pombreda/chrometophone",
+        "forks_url": "https://api.github.com/repos/pombreda/chrometophone/forks",
+        "keys_url": "https://api.github.com/repos/pombreda/chrometophone/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/pombreda/chrometophone/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/pombreda/chrometophone/teams",
+        "hooks_url": "https://api.github.com/repos/pombreda/chrometophone/hooks",
+        "issue_events_url": "https://api.github.com/repos/pombreda/chrometophone/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/pombreda/chrometophone/events",
+        "assignees_url": "https://api.github.com/repos/pombreda/chrometophone/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/pombreda/chrometophone/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/pombreda/chrometophone/tags",
+        "blobs_url": "https://api.github.com/repos/pombreda/chrometophone/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/pombreda/chrometophone/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/pombreda/chrometophone/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/pombreda/chrometophone/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/pombreda/chrometophone/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/pombreda/chrometophone/languages",
+        "stargazers_url": "https://api.github.com/repos/pombreda/chrometophone/stargazers",
+        "contributors_url": "https://api.github.com/repos/pombreda/chrometophone/contributors",
+        "subscribers_url": "https://api.github.com/repos/pombreda/chrometophone/subscribers",
+        "subscription_url": "https://api.github.com/repos/pombreda/chrometophone/subscription",
+        "commits_url": "https://api.github.com/repos/pombreda/chrometophone/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/pombreda/chrometophone/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/pombreda/chrometophone/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/pombreda/chrometophone/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/pombreda/chrometophone/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/pombreda/chrometophone/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/pombreda/chrometophone/merges",
+        "archive_url": "https://api.github.com/repos/pombreda/chrometophone/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/pombreda/chrometophone/downloads",
+        "issues_url": "https://api.github.com/repos/pombreda/chrometophone/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/pombreda/chrometophone/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/pombreda/chrometophone/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/pombreda/chrometophone/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/pombreda/chrometophone/labels{/name}",
+        "releases_url": "https://api.github.com/repos/pombreda/chrometophone/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/pombreda/chrometophone/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/32221591/contents/extension/chrome_ex_oauth.js?ref=055ebfca2dd4d7585e51fc176602e68ff1d732a8",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "} url_request_token The OAuth request token URL.\n * @param {String} url_auth_token The OAuth authorize token URL",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                24,
+                29
+              ]
+            },
+            {
+              "text": "OAuth",
+              "indices": [
+                87,
+                92
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/32221591/contents/extension/chrome_ex_oauth.js?ref=055ebfca2dd4d7585e51fc176602e68ff1d732a8",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ".\n * @param {String} url_access_token The OAuth access token URL.\n * @param {String} consumer_key The",
+          "matches": [
+            {
+              "text": "OAuth",
+              "indices": [
+                42,
+                47
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "README.md",
+      "path": "www/lib/ng-cordova-oauth/README.md",
+      "sha": "4adb551d1727598c2a8e3ee8d8baa7d464f2f77e",
+      "url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/README.md?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+      "git_url": "https://api.github.com/repositories/53608097/git/blobs/4adb551d1727598c2a8e3ee8d8baa7d464f2f77e",
+      "html_url": "https://github.com/guscanales/CalculoCalificaciones/blob/30721ccbee9a24c964296323aef04e5120d7f9f6/www/lib/ng-cordova-oauth/README.md",
+      "repository": {
+        "id": 53608097,
+        "node_id": "MDEwOlJlcG9zaXRvcnk1MzYwODA5Nw==",
+        "name": "CalculoCalificaciones",
+        "full_name": "guscanales/CalculoCalificaciones",
+        "private": false,
+        "owner": {
+          "login": "guscanales",
+          "id": 10030533,
+          "node_id": "MDQ6VXNlcjEwMDMwNTMz",
+          "avatar_url": "https://avatars.githubusercontent.com/u/10030533?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/guscanales",
+          "html_url": "https://github.com/guscanales",
+          "followers_url": "https://api.github.com/users/guscanales/followers",
+          "following_url": "https://api.github.com/users/guscanales/following{/other_user}",
+          "gists_url": "https://api.github.com/users/guscanales/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/guscanales/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/guscanales/subscriptions",
+          "organizations_url": "https://api.github.com/users/guscanales/orgs",
+          "repos_url": "https://api.github.com/users/guscanales/repos",
+          "events_url": "https://api.github.com/users/guscanales/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/guscanales/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/guscanales/CalculoCalificaciones",
+        "description": "Ionic App - Angular - NodeJS",
+        "fork": false,
+        "url": "https://api.github.com/repos/guscanales/CalculoCalificaciones",
+        "forks_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/forks",
+        "keys_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/teams",
+        "hooks_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/hooks",
+        "issue_events_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/events",
+        "assignees_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/tags",
+        "blobs_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/languages",
+        "stargazers_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/stargazers",
+        "contributors_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/contributors",
+        "subscribers_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/subscribers",
+        "subscription_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/subscription",
+        "commits_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/merges",
+        "archive_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/downloads",
+        "issues_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/labels{/name}",
+        "releases_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/guscanales/CalculoCalificaciones/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/README.md?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "[![Build Status](https://travis-ci.org/nraboy/ng-cordova-oauth.svg?branch=master)](https",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                57,
+                62
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/53608097/contents/www/lib/ng-cordova-oauth/README.md?ref=30721ccbee9a24c964296323aef04e5120d7f9f6",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "://travis-ci.org/nraboy/ng-cordova-oauth)\n[![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                35,
+                40
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth_configuration.json",
+      "path": "wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/OAuth/oauth_configuration.json",
+      "sha": "35180ab9cf13048e2fb99f65b5716d5756249b06",
+      "url": "https://api.github.com/repositories/317798867/contents/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/OAuth/oauth_configuration.json?ref=7da41221073082fb08bee53ba2aa4b39ba72047f",
+      "git_url": "https://api.github.com/repositories/317798867/git/blobs/35180ab9cf13048e2fb99f65b5716d5756249b06",
+      "html_url": "https://github.com/mishel-unish/bowthan/blob/7da41221073082fb08bee53ba2aa4b39ba72047f/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/OAuth/oauth_configuration.json",
+      "repository": {
+        "id": 317798867,
+        "node_id": "MDEwOlJlcG9zaXRvcnkzMTc3OTg4Njc=",
+        "name": "bowthan",
+        "full_name": "mishel-unish/bowthan",
+        "private": false,
+        "owner": {
+          "login": "mishel-unish",
+          "id": 10103956,
+          "node_id": "MDQ6VXNlcjEwMTAzOTU2",
+          "avatar_url": "https://avatars.githubusercontent.com/u/10103956?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/mishel-unish",
+          "html_url": "https://github.com/mishel-unish",
+          "followers_url": "https://api.github.com/users/mishel-unish/followers",
+          "following_url": "https://api.github.com/users/mishel-unish/following{/other_user}",
+          "gists_url": "https://api.github.com/users/mishel-unish/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/mishel-unish/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/mishel-unish/subscriptions",
+          "organizations_url": "https://api.github.com/users/mishel-unish/orgs",
+          "repos_url": "https://api.github.com/users/mishel-unish/repos",
+          "events_url": "https://api.github.com/users/mishel-unish/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/mishel-unish/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/mishel-unish/bowthan",
+        "description": "A wordpress e-commerce/f-commerce website",
+        "fork": false,
+        "url": "https://api.github.com/repos/mishel-unish/bowthan",
+        "forks_url": "https://api.github.com/repos/mishel-unish/bowthan/forks",
+        "keys_url": "https://api.github.com/repos/mishel-unish/bowthan/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/mishel-unish/bowthan/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/mishel-unish/bowthan/teams",
+        "hooks_url": "https://api.github.com/repos/mishel-unish/bowthan/hooks",
+        "issue_events_url": "https://api.github.com/repos/mishel-unish/bowthan/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/mishel-unish/bowthan/events",
+        "assignees_url": "https://api.github.com/repos/mishel-unish/bowthan/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/mishel-unish/bowthan/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/mishel-unish/bowthan/tags",
+        "blobs_url": "https://api.github.com/repos/mishel-unish/bowthan/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/mishel-unish/bowthan/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/mishel-unish/bowthan/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/mishel-unish/bowthan/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/mishel-unish/bowthan/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/mishel-unish/bowthan/languages",
+        "stargazers_url": "https://api.github.com/repos/mishel-unish/bowthan/stargazers",
+        "contributors_url": "https://api.github.com/repos/mishel-unish/bowthan/contributors",
+        "subscribers_url": "https://api.github.com/repos/mishel-unish/bowthan/subscribers",
+        "subscription_url": "https://api.github.com/repos/mishel-unish/bowthan/subscription",
+        "commits_url": "https://api.github.com/repos/mishel-unish/bowthan/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/mishel-unish/bowthan/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/mishel-unish/bowthan/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/mishel-unish/bowthan/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/mishel-unish/bowthan/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/mishel-unish/bowthan/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/mishel-unish/bowthan/merges",
+        "archive_url": "https://api.github.com/repos/mishel-unish/bowthan/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/mishel-unish/bowthan/downloads",
+        "issues_url": "https://api.github.com/repos/mishel-unish/bowthan/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/mishel-unish/bowthan/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/mishel-unish/bowthan/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/mishel-unish/bowthan/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/mishel-unish/bowthan/labels{/name}",
+        "releases_url": "https://api.github.com/repos/mishel-unish/bowthan/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/mishel-unish/bowthan/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/317798867/contents/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/OAuth/oauth_configuration.json?ref=7da41221073082fb08bee53ba2aa4b39ba72047f",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "{\n  \"version\": \"$Id: oauth_configuration.json,v 1.27 2015/07/23 20:45:00 mlemos Exp $\",\n  \"comments",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                21,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/317798867/contents/wp-content/plugins/smart-slider-3/Nextend/Framework/Misc/OAuth/oauth_configuration.json?ref=7da41221073082fb08bee53ba2aa4b39ba72047f",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": " an object with\",\n    \"some mandatory properties: oauth_version, dialog_url,\",\n    \"access_token_url",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                50,
+                55
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "oauth.xml",
+      "path": "app/design/frontend/base/default/layout/oauth.xml",
+      "sha": "3088e837df0d2da01fdd7510f0ac66520040a0e3",
+      "url": "https://api.github.com/repositories/8129475/contents/app/design/frontend/base/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+      "git_url": "https://api.github.com/repositories/8129475/git/blobs/3088e837df0d2da01fdd7510f0ac66520040a0e3",
+      "html_url": "https://github.com/medinadato/mystore/blob/37170f2165f90c7beba52588c88d8d2ef2348c70/app/design/frontend/base/default/layout/oauth.xml",
+      "repository": {
+        "id": 8129475,
+        "node_id": "MDEwOlJlcG9zaXRvcnk4MTI5NDc1",
+        "name": "mystore",
+        "full_name": "medinadato/mystore",
+        "private": false,
+        "owner": {
+          "login": "medinadato",
+          "id": 922809,
+          "node_id": "MDQ6VXNlcjkyMjgwOQ==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/922809?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/medinadato",
+          "html_url": "https://github.com/medinadato",
+          "followers_url": "https://api.github.com/users/medinadato/followers",
+          "following_url": "https://api.github.com/users/medinadato/following{/other_user}",
+          "gists_url": "https://api.github.com/users/medinadato/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/medinadato/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/medinadato/subscriptions",
+          "organizations_url": "https://api.github.com/users/medinadato/orgs",
+          "repos_url": "https://api.github.com/users/medinadato/repos",
+          "events_url": "https://api.github.com/users/medinadato/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/medinadato/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/medinadato/mystore",
+        "description": "Project in Magento to create a ecommerce store.",
+        "fork": false,
+        "url": "https://api.github.com/repos/medinadato/mystore",
+        "forks_url": "https://api.github.com/repos/medinadato/mystore/forks",
+        "keys_url": "https://api.github.com/repos/medinadato/mystore/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/medinadato/mystore/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/medinadato/mystore/teams",
+        "hooks_url": "https://api.github.com/repos/medinadato/mystore/hooks",
+        "issue_events_url": "https://api.github.com/repos/medinadato/mystore/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/medinadato/mystore/events",
+        "assignees_url": "https://api.github.com/repos/medinadato/mystore/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/medinadato/mystore/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/medinadato/mystore/tags",
+        "blobs_url": "https://api.github.com/repos/medinadato/mystore/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/medinadato/mystore/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/medinadato/mystore/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/medinadato/mystore/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/medinadato/mystore/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/medinadato/mystore/languages",
+        "stargazers_url": "https://api.github.com/repos/medinadato/mystore/stargazers",
+        "contributors_url": "https://api.github.com/repos/medinadato/mystore/contributors",
+        "subscribers_url": "https://api.github.com/repos/medinadato/mystore/subscribers",
+        "subscription_url": "https://api.github.com/repos/medinadato/mystore/subscription",
+        "commits_url": "https://api.github.com/repos/medinadato/mystore/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/medinadato/mystore/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/medinadato/mystore/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/medinadato/mystore/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/medinadato/mystore/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/medinadato/mystore/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/medinadato/mystore/merges",
+        "archive_url": "https://api.github.com/repos/medinadato/mystore/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/medinadato/mystore/downloads",
+        "issues_url": "https://api.github.com/repos/medinadato/mystore/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/medinadato/mystore/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/medinadato/mystore/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/medinadato/mystore/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/medinadato/mystore/labels{/name}",
+        "releases_url": "https://api.github.com/repos/medinadato/mystore/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/medinadato/mystore/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/design/frontend/base/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ">\n<layout version=\"1.0.0.0\">\n    <oauth_root_handle>\n        <reference name=\"root\">\n            <action",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                34,
+                39
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/8129475/contents/app/design/frontend/base/default/layout/oauth.xml?ref=37170f2165f90c7beba52588c88d8d2ef2348c70",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "\"/>\n    </oauth_root_handle>\n\n    <oauth_root_handle_simple>\n        <remove name=\"js_cookie\" />\n        <block",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                10,
+                15
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                35,
+                40
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "de.po",
+      "path": "addons/auth_oauth/i18n/de.po",
+      "sha": "c54656b1fd7ace10f5a57d154ced0b7467b35b24",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/de.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/c54656b1fd7ace10f5a57d154ced0b7467b35b24",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/de.po",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/de.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n# * auth_oauth\n# \n# Translators:\n# Martin Trigaux, 2018\n# Johannes Croe <jcr@odoo.com>, 2018\n# Chris Egal",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/de.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "\\n\"\n\"Plural-Forms: nplurals=2; plural=(n != 1);\\n\"\n\n#. module: auth_oauth\n#: model_terms:ir.ui.view",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                68,
+                73
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "it.po",
+      "path": "addons/auth_oauth/i18n/it.po",
+      "sha": "9edf66c3edce576c35e4e98213c6974e531941c3",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/it.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/9edf66c3edce576c35e4e98213c6974e531941c3",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/it.po",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/it.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n# * auth_oauth\n# \n# Translators:\n# Martin Trigaux, 2018\n# Paolo Valier, 2018\n# Pietro Della Notte",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/it.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ": auth_oauth\n#: model_terms:ir.ui.view,arch_db:auth_oauth.providers\nmsgid \"- or -\"\nmsgstr \"- oppure",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                7,
+                12
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                52,
+                57
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "fr.po",
+      "path": "addons/auth_oauth/i18n/fr.po",
+      "sha": "5046216ab51112c7b58c55096e6370b7e4d1ab7f",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/fr.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/5046216ab51112c7b58c55096e6370b7e4d1ab7f",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/fr.po",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/fr.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n# * auth_oauth\n# \n# Translators:\n# Martin Trigaux, 2018\n# Marie Willemyns <mwi@odoo.com>, 2018\n# Cécile",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/fr.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": "=(n > 1);\\n\"\n\n#. module: auth_oauth\n#: model_terms:ir.ui.view,arch_db:auth_oauth.providers\nmsgid \"- or -\"\nmsgstr",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                30,
+                35
+              ]
+            },
+            {
+              "text": "oauth",
+              "indices": [
+                75,
+                80
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "es.po",
+      "path": "addons/auth_oauth/i18n/es.po",
+      "sha": "034ec90338efb2644d2eee700a196234e2590e08",
+      "url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/es.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+      "git_url": "https://api.github.com/repositories/201953685/git/blobs/034ec90338efb2644d2eee700a196234e2590e08",
+      "html_url": "https://github.com/equitania/v12-server/blob/8ddf8a70b2223049a5d3fa0d481e06600528bca0/addons/auth_oauth/i18n/es.po",
+      "repository": {
+        "id": 201953685,
+        "node_id": "MDEwOlJlcG9zaXRvcnkyMDE5NTM2ODU=",
+        "name": "v12-server",
+        "full_name": "equitania/v12-server",
+        "private": false,
+        "owner": {
+          "login": "equitania",
+          "id": 3307591,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjMzMDc1OTE=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/3307591?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/equitania",
+          "html_url": "https://github.com/equitania",
+          "followers_url": "https://api.github.com/users/equitania/followers",
+          "following_url": "https://api.github.com/users/equitania/following{/other_user}",
+          "gists_url": "https://api.github.com/users/equitania/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/equitania/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/equitania/subscriptions",
+          "organizations_url": "https://api.github.com/users/equitania/orgs",
+          "repos_url": "https://api.github.com/users/equitania/repos",
+          "events_url": "https://api.github.com/users/equitania/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/equitania/received_events",
+          "type": "Organization",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/equitania/v12-server",
+        "description": null,
+        "fork": false,
+        "url": "https://api.github.com/repos/equitania/v12-server",
+        "forks_url": "https://api.github.com/repos/equitania/v12-server/forks",
+        "keys_url": "https://api.github.com/repos/equitania/v12-server/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/equitania/v12-server/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/equitania/v12-server/teams",
+        "hooks_url": "https://api.github.com/repos/equitania/v12-server/hooks",
+        "issue_events_url": "https://api.github.com/repos/equitania/v12-server/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/equitania/v12-server/events",
+        "assignees_url": "https://api.github.com/repos/equitania/v12-server/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/equitania/v12-server/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/equitania/v12-server/tags",
+        "blobs_url": "https://api.github.com/repos/equitania/v12-server/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/equitania/v12-server/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/equitania/v12-server/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/equitania/v12-server/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/equitania/v12-server/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/equitania/v12-server/languages",
+        "stargazers_url": "https://api.github.com/repos/equitania/v12-server/stargazers",
+        "contributors_url": "https://api.github.com/repos/equitania/v12-server/contributors",
+        "subscribers_url": "https://api.github.com/repos/equitania/v12-server/subscribers",
+        "subscription_url": "https://api.github.com/repos/equitania/v12-server/subscription",
+        "commits_url": "https://api.github.com/repos/equitania/v12-server/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/equitania/v12-server/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/equitania/v12-server/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/equitania/v12-server/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/equitania/v12-server/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/equitania/v12-server/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/equitania/v12-server/merges",
+        "archive_url": "https://api.github.com/repos/equitania/v12-server/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/equitania/v12-server/downloads",
+        "issues_url": "https://api.github.com/repos/equitania/v12-server/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/equitania/v12-server/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/equitania/v12-server/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/equitania/v12-server/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/equitania/v12-server/labels{/name}",
+        "releases_url": "https://api.github.com/repos/equitania/v12-server/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/equitania/v12-server/deployments"
+      },
+      "score": 1,
+      "text_matches": [
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/es.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ":\n# * auth_oauth\n# \n# Translators:\n# Martin Trigaux, 2018\n# Cristopher Cravioto <ccr@odoo.com>, 2018\n# Jon",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "object_url": "https://api.github.com/repositories/201953685/contents/addons/auth_oauth/i18n/es.po?ref=8ddf8a70b2223049a5d3fa0d481e06600528bca0",
+          "object_type": "FileContent",
+          "property": "content",
+          "fragment": ": \\n\"\n\"Language: es\\n\"\n\"Plural-Forms: nplurals=2; plural=(n != 1);\\n\"\n\n#. module: auth_oauth",
+          "matches": [
+            {
+              "text": "oauth",
+              "indices": [
+                87,
+                92
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
