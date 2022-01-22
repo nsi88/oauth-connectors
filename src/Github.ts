@@ -120,7 +120,7 @@ export default class Github extends Connector implements IOAuth2, ISearch {
   async search<T extends AuthCredentials>(
       query: string,
       oAuth2AccessTokenResponse: T | null,
-      additionalParameters?: { [key: string]: any },
+      _additionalParameters?: { [key: string]: any },
   ): Promise<Array<SearchResult>> {
     console.info('Github search', query);
     const octokit = this.getOctokit(oAuth2AccessTokenResponse);
@@ -130,17 +130,14 @@ export default class Github extends Connector implements IOAuth2, ISearch {
 
     // Using octokit.request (custom request) instead of octokit.search.code to return text_matches
     const { data } = await octokit.request('GET /search/code', {
-      ...(additionalParameters || {}),
-      ...{
-        q: query,
-        headers: {
-          // To return text matches
-          // See https://docs.github.com/en/rest/reference/search#text-match-metadata
-          accept: 'application/vnd.github.v3.text-match+json',
-        },
-        request: {
-          fetch: this.fetch,
-        },
+      q: query,
+      headers: {
+        // To return text matches
+        // See https://docs.github.com/en/rest/reference/search#text-match-metadata
+        accept: 'application/vnd.github.v3.text-match+json',
+      },
+      request: {
+        fetch: this.fetch,
       },
     });
     console.debug('data', data);
