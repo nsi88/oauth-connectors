@@ -2,6 +2,7 @@ import IOAuth2AccessTokenResponse from '../IOAuth2AccessTokenResponse';
 import { Octokit } from '@octokit/rest';
 import ITimeout, { implementsITimeout } from '../ITimeout';
 import IRetries, { implementsIRetries } from '../IRetries';
+import { throttling } from '@octokit/plugin-throttling';
 
 export default class OctokitFactory {
   static build(origin: string, oAuth2AccessTokenResponse: IOAuth2AccessTokenResponse, additionalParameters: { [key: string]: any } = {}): Octokit {
@@ -9,7 +10,8 @@ export default class OctokitFactory {
     const auth = 'token ' + oAuth2AccessTokenResponse.accessToken;
     const timeoutSec = implementsITimeout(additionalParameters) ? (additionalParameters as ITimeout).timeout / 1000 : undefined;
     const retries = implementsIRetries(additionalParameters) ? (additionalParameters as IRetries).retries : undefined;
-    return new Octokit({
+    const OctokitWithThrottling = Octokit.plugin(throttling);
+    return new OctokitWithThrottling({
       auth,
       userAgent: 'OAuthConnectors',
       baseUrl: this.baseUrl(origin),
@@ -17,10 +19,8 @@ export default class OctokitFactory {
       // log: console,
       throttle: {
         onRateLimit: this.onRateLimit.bind(this, timeoutSec, retries),
-        onAbuseLimit: (_retryAfter: number, options: any) => {
-          // does not retry, only logs a warning
-          console.warn(`Abuse detected for request ${options.method} ${options.url}`);
-        },
+        // For now using the same logic for both abuse and rate limit
+        onAbuseLimit: this.onRateLimit.bind(this, timeoutSec, retries),
       },
     });
   }

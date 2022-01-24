@@ -120,10 +120,10 @@ export default class Github extends Connector implements IOAuth2, ISearch {
   async search<T extends AuthCredentials>(
       query: string,
       oAuth2AccessTokenResponse: T | null,
-      _additionalParameters?: { [key: string]: any },
+      additionalParameters?: { [key: string]: any },
   ): Promise<Array<SearchResult>> {
     console.info('Github search', query);
-    const octokit = this.getOctokit(oAuth2AccessTokenResponse);
+    const octokit = this.getOctokit(oAuth2AccessTokenResponse, additionalParameters);
     // TODO: Search in issues, commits, etc.
     // Probably should be a parameter telling where to search instead of searching everywhere
     // To search everywhere the connector misses the information how to merge results.
@@ -147,14 +147,14 @@ export default class Github extends Connector implements IOAuth2, ISearch {
   /**
    * See https://octokit.github.io/rest.js/v18
    */
-  private getOctokit<T extends AuthCredentials>(oAuth2AccessTokenResponse: T | null): Octokit {
+  private getOctokit<T extends AuthCredentials>(oAuth2AccessTokenResponse: T | null, additionalParameters?: { [key: string]: any }): Octokit {
     if (oAuth2AccessTokenResponse === null) {
       // TODO: Don't throw ConnectorError. Only its children. Make ConnectorError abstract
       throw new ConnectorError(this, 'oAuth2AccessTokenResponse is required');
     }
     assert('accessToken' in oAuth2AccessTokenResponse, 'accessToken is required');
 
-    const octokit = OctokitFactory.build(this.origin, oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse);
+    const octokit = OctokitFactory.build(this.origin, oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse, additionalParameters);
 
     octokit.hook.error('request', (error: RequestError | Error) => {
       if (error instanceof RequestError) {

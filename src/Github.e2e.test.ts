@@ -1,4 +1,6 @@
 import Github from './Github';
+import * as assert from 'assert';
+import IOAuth2AccessTokenResponse from './IOAuth2AccessTokenResponse';
 
 describe('login and search', () => {
   // process.env is initialized in jest.config.js
@@ -28,5 +30,66 @@ describe('login and search', () => {
     });
     const searchResults = await github.search('OAuth', oAuth2AccessTokenResponse);
     console.debug(searchResults);
+  });
+});
+
+// By default disabled. To long to run on every build
+describe.skip('throttling', () => {
+  const accessToken = process.env.OAUTH_GITHUB_ACCESS_TOKEN;
+  assert(accessToken !== undefined);
+  const tokenType = process.env.OAUTH_GITHUB_TOKEN_TYPE;
+  assert(tokenType !== undefined);
+  const scope = (process.env.OAUTH_GITHUB_SCOPE || '').split(',');
+  const oAuth2AccessTokenResponse: IOAuth2AccessTokenResponse = {
+    accessToken,
+    tokenType,
+    refreshToken: null,
+    scope,
+    expiresIn: null,
+  };
+  let error: Error | undefined = undefined;
+  const github = new Github();
+
+  beforeAll(() => {
+    jest.setTimeout(5 * 60 * 1000);
+  });
+
+  describe('without retries and timeout', () => {
+    beforeAll(async () => {
+      error = undefined;
+      try {
+        for (let i = 0; i < 10; i++) {
+          await github.search('10 football rules in:file repo:open-loocle/google-wikipediai-dataset', oAuth2AccessTokenResponse);
+        }
+      } catch (e) {
+        error = e;
+      }
+    });
+
+    test('error', () => {
+      expect(error?.message).toContain('exceeded');
+    });
+  });
+
+  describe('with retries without timeout', () => {
+    beforeAll(async () => {
+      error = undefined;
+      try {
+        for (let i = 0; i < 10; i++) {
+          const results = await github.search(
+            '10 football rules in:file repo:open-loocle/google-wikipediai-dataset',
+            oAuth2AccessTokenResponse,
+              { retries: 10 },
+          );
+          console.debug('results', results);
+        }
+      } catch (e) {
+        error = e;
+      }
+    });
+
+    test('error', () => {
+      expect(error).toBeUndefined();
+    });
   });
 });
