@@ -24,6 +24,8 @@ import IOAuth2AccessTokenRequest, { implementsIOAuth2AccessTokenRequest } from '
 import DemoSlack from './src/DemoSlack';
 import IDemoAuth, { implementsIDemoAuth } from './src/IDemoAuth';
 import Github from './src/Github';
+import ITimeout from './src/ITimeout';
+import IRetries from './src/IRetries';
 
 export {
   Slack,
@@ -63,4 +65,6 @@ export {
   IDemoAuth,
   implementsIDemoAuth,
   Github,
+  ITimeout,
+  IRetries,
 };
