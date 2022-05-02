@@ -19,8 +19,7 @@ export default class OctokitFactory {
       // log: console,
       throttle: {
         onRateLimit: this.onRateLimit.bind(this, timeoutSec, retries),
-        // For now using the same logic for both abuse and rate limit
-        onAbuseLimit: this.onRateLimit.bind(this, timeoutSec, retries),
+        onSecondaryRateLimit: this.onRateLimit.bind(this, timeoutSec, retries),
       },
     });
   }
