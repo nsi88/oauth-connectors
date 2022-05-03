@@ -71,7 +71,7 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
           ));
         });
       } catch (e) {
-        reject(this.errorToErrorCodeConnectorError(e));
+        reject(this.errorToErrorCodeConnectorError(e as Error));
       }
     });
   }
@@ -105,7 +105,7 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
               resolve({ oauthToken: token, oauthTokenSecret: tokenSecret });
             });
       } catch (e) {
-        reject(this.errorToErrorCodeConnectorError(e));
+        reject(this.errorToErrorCodeConnectorError(e as Error));
       }
     });
   }
@@ -241,7 +241,7 @@ export default class ConfluenceServer extends Connector implements IOAuth1, ISea
           resolve(JSON.parse(result as string));
         });
       } catch (e) {
-        reject(this.errorToErrorCodeConnectorError(e));
+        reject(this.errorToErrorCodeConnectorError(e as Error));
       }
     });
   }

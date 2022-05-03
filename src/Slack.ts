@@ -127,7 +127,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
         redirect_uri: oAuth2AccessTokenRequest.redirectUri,
       });
     } catch (e) {
-      this.handleError(e);
+      this.handleError(e as Error);
     }
     if (webAPICallResult.error !== undefined) {
       this.handleError(new Error(webAPICallResult.error));
@@ -180,7 +180,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
         sort_dir: additionalParameters['sort_dir'],
       }));
     } catch (e) {
-      this.handleError(e);
+      this.handleError(e as Error);
     }
     console.debug('Slack search response', webAPICallResult);
     const messageMatches: Array<IMessageMatch> = (webAPICallResult.messages as IMessages).matches as Array<IMessageMatch>;
@@ -204,7 +204,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
         token: (oAuth2AccessTokenResponse as unknown as IOAuth2AccessTokenResponse).accessToken,
       });
     } catch (e) {
-      this.handleError(e);
+      this.handleError(e as Error);
     }
     if (webAPICallResult.error !== undefined) {
       this.handleError(new Error(webAPICallResult.error));
@@ -230,7 +230,7 @@ export default class Slack extends Connector implements IOAuth2, ISearch, ICurre
         limit,
       });
     } catch (e) {
-      this.handleError(e);
+      this.handleError(e as Error);
     }
     if (webAPICallResult.error !== undefined) {
       this.handleError(new Error(webAPICallResult.error));
